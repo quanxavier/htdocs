@@ -1,0 +1,1652 @@
+#camper_information .sfm_textbox
+{
+    padding:1px;
+}
+#camper_information .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#camper_information .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#camper_information img
+{
+    border:0;
+}
+#camper_information .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#camper_information input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#camper_information .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#camper_information .sfm_cr_box a
+{
+    color:#888888;
+}
+#camper_information .form_outer_div
+{
+    margin:0 auto;
+    border:none;
+    background-color:#80ace3;
+}
+#camper_information .sfm_form_label
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#camper_information .element_label
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+body#sfm_camper_information_body
+{
+    background-color:transparent;
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+    margin:0px;
+}
+#camper_information .form_outer_div
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+}
+#camper_information .form_subheading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#camper_information .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+    background:none repeat scroll 0 0 #333333;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:none;
+}
+#camper_information .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+}
+#camper_information .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#camper_information .progress_box
+{
+    background-color:#333333;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#camper_information .page_heading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#camper_information .page_number
+{
+    background-color:transparent;
+}
+
+
+#camper_information #label19
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    font-style:italic;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+#camper_information #label_container
+{
+    position:absolute;
+    left:377px;
+    top:64px;
+    width:437px;
+    height:34px;
+    z-index:3;
+    border-width:1px;
+    border-style:solid;
+    border-color:transparent;
+}
+#camper_information #label
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:20pt;
+    color:#000000;
+}
+#camper_information #Image1_container
+{
+    position:absolute;
+    left:836px;
+    top:31px;
+    width:346px;
+    height:103px;
+    z-index:50;
+}
+#camper_information #Image_container
+{
+    position:absolute;
+    left:54px;
+    top:0px;
+    width:223px;
+    height:140px;
+    z-index:49;
+}
+#camper_information #heading_container
+{
+    position:absolute;
+    left:52px;
+    top:260px;
+    width:242px;
+    height:20px;
+    z-index:24;
+}
+#camper_information #heading
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:left;
+}
+#camper_information #label4_container
+{
+    position:absolute;
+    left:53px;
+    top:301px;
+    width:83px;
+    height:20px;
+    z-index:17;
+}
+#camper_information #label4
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#camper_information #label5_container
+{
+    position:absolute;
+    left:471px;
+    top:304px;
+    width:81px;
+    height:20px;
+    z-index:18;
+}
+#camper_information #label5
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#camper_information #FirstName_container
+{
+    position:absolute;
+    left:152px;
+    top:302px;
+    z-index:16;
+}
+#camper_information #FirstName
+{
+    float:left;
+    width:272px;
+    z-index:16;
+}
+#camper_information #LastName_container
+{
+    position:absolute;
+    left:572px;
+    top:304px;
+    z-index:19;
+}
+#camper_information #LastName
+{
+    float:left;
+    width:272px;
+    z-index:19;
+}
+#camper_information #label2_container
+{
+    position:absolute;
+    left:83px;
+    top:345px;
+    width:60px;
+    height:20px;
+    z-index:12;
+}
+#camper_information #label2
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #Address_container
+{
+    position:absolute;
+    left:152px;
+    top:344px;
+    z-index:13;
+}
+#camper_information #Address
+{
+    float:left;
+    width:692px;
+    z-index:13;
+}
+#camper_information #label3_container
+{
+    position:absolute;
+    left:109px;
+    top:385px;
+    width:35px;
+    height:20px;
+    z-index:14;
+}
+#camper_information #label3
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label6_container
+{
+    position:absolute;
+    left:289px;
+    top:386px;
+    width:60px;
+    height:20px;
+    z-index:20;
+}
+#camper_information #label6
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #City_container
+{
+    position:absolute;
+    left:152px;
+    top:385px;
+    z-index:15;
+}
+#camper_information #City
+{
+    float:left;
+    width:114px;
+    z-index:15;
+}
+#camper_information #zip_container
+{
+    position:absolute;
+    left:535px;
+    top:386px;
+    z-index:23;
+}
+#camper_information #zip
+{
+    float:left;
+    width:74px;
+    z-index:23;
+}
+#camper_information #label7_container
+{
+    position:absolute;
+    left:500px;
+    top:388px;
+    width:20px;
+    height:20px;
+    z-index:22;
+}
+#camper_information #label7
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#camper_information #label12_container
+{
+    position:absolute;
+    left:638px;
+    top:388px;
+    width:60px;
+    height:20px;
+    z-index:35;
+}
+#camper_information #label12
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #state_container
+{
+    position:absolute;
+    left:348px;
+    top:386px;
+    z-index:21;
+}
+#camper_information #state
+{
+    float:left;
+    width:120px;
+    height:22px;
+    z-index:21;
+}
+#camper_information #county_container
+{
+    position:absolute;
+    left:712px;
+    top:389px;
+    z-index:34;
+}
+#camper_information #county
+{
+    float:left;
+    width:80px;
+    z-index:34;
+}
+#camper_information #comment_container
+{
+    position:absolute;
+    left:882px;
+    top:302px;
+    z-index:51;
+}
+#camper_information #comment
+{
+    float:left;
+    width:251px;
+    height:129px;
+    z-index:51;
+}
+#camper_information #label8_container
+{
+    position:absolute;
+    left:65px;
+    top:425px;
+    width:74px;
+    height:20px;
+    z-index:26;
+}
+#camper_information #label8
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label9_container
+{
+    position:absolute;
+    left:318px;
+    top:426px;
+    width:35px;
+    height:20px;
+    z-index:27;
+}
+#camper_information #label9
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #DOB_container
+{
+    position:absolute;
+    left:152px;
+    top:425px;
+    width:144px;
+    height:22px;
+    z-index:25;
+}
+#camper_information #DOB
+{
+    float:left;
+    width:112px;
+    z-index:25;
+    margin:0px;
+}
+#camper_information #DOB_image_container
+{
+    float:left;
+    width:20px;
+    z-index:25;
+    height:100%;
+    position:relative;
+}
+#camper_information #DOB_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#camper_information #Age_container
+{
+    position:absolute;
+    left:358px;
+    top:426px;
+    z-index:28;
+}
+#camper_information #Age
+{
+    float:left;
+    width:34px;
+    z-index:28;
+}
+#camper_information #label10_container
+{
+    position:absolute;
+    left:423px;
+    top:428px;
+    width:84px;
+    height:20px;
+    z-index:30;
+}
+#camper_information #label10
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #Grade_container
+{
+    position:absolute;
+    left:519px;
+    top:428px;
+    z-index:29;
+}
+#camper_information #Grade
+{
+    float:left;
+    width:18px;
+    z-index:29;
+    text-align:right;
+}
+#camper_information #label1_container
+{
+    position:absolute;
+    left:569px;
+    top:428px;
+    width:60px;
+    height:24px;
+    z-index:9;
+}
+#camper_information #label1
+{
+    position:absolute;
+    top:5px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label11_container
+{
+    position:absolute;
+    left:712px;
+    top:433px;
+    width:92px;
+    height:20px;
+    z-index:31;
+}
+#camper_information #label11
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #Gender_0_container
+{
+    position:absolute;
+    left:626px;
+    top:428px;
+    width:60px;
+    height:18px;
+    z-index:10;
+}
+#camper_information #Gender_1_container
+{
+    position:absolute;
+    left:626px;
+    top:446px;
+    width:68px;
+    height:18px;
+    z-index:11;
+}
+#camper_information #label19_container
+{
+    position:absolute;
+    left:910px;
+    top:444px;
+    width:200px;
+    height:20px;
+    z-index:52;
+}
+#camper_information #label19
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #yes_no_0_container
+{
+    position:absolute;
+    left:819px;
+    top:427px;
+    width:48px;
+    height:18px;
+    z-index:32;
+}
+#camper_information #yes_no_1_container
+{
+    position:absolute;
+    left:819px;
+    top:447px;
+    width:48px;
+    height:18px;
+    z-index:33;
+}
+#camper_information #box_element
+{
+    position:absolute;
+    left:27px;
+    top:243px;
+    width:1160px;
+    height:256px;
+    z-index:2;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#camper_information #heading1_container
+{
+    position:absolute;
+    left:52px;
+    top:540px;
+    width:542px;
+    height:24px;
+    z-index:36;
+}
+#camper_information #heading1
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:left;
+}
+#camper_information #label13_container
+{
+    position:absolute;
+    left:41px;
+    top:584px;
+    width:116px;
+    height:20px;
+    z-index:37;
+}
+#camper_information #label13
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#camper_information #label14_container
+{
+    position:absolute;
+    left:473px;
+    top:584px;
+    width:116px;
+    height:20px;
+    z-index:39;
+}
+#camper_information #label14
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #first_name_f_container
+{
+    position:absolute;
+    left:176px;
+    top:582px;
+    z-index:38;
+}
+#camper_information #first_name_f
+{
+    float:left;
+    width:272px;
+    z-index:38;
+}
+#camper_information #label21_container
+{
+    position:absolute;
+    left:896px;
+    top:584px;
+    width:125px;
+    height:20px;
+    z-index:55;
+}
+#camper_information #label21
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #last_name_f_container
+{
+    position:absolute;
+    left:592px;
+    top:584px;
+    z-index:40;
+}
+#camper_information #last_name_f
+{
+    float:left;
+    width:272px;
+    z-index:40;
+}
+#camper_information #email_f_container
+{
+    position:absolute;
+    left:1033px;
+    top:584px;
+    z-index:56;
+}
+#camper_information #email_f
+{
+    float:left;
+    width:114px;
+    z-index:56;
+}
+#camper_information #label15_container
+{
+    position:absolute;
+    left:77px;
+    top:622px;
+    width:80px;
+    height:20px;
+    z-index:41;
+}
+#camper_information #label15
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label16_container
+{
+    position:absolute;
+    left:336px;
+    top:622px;
+    width:76px;
+    height:20px;
+    z-index:43;
+}
+#camper_information #label16
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label17_container
+{
+    position:absolute;
+    left:592px;
+    top:622px;
+    width:60px;
+    height:20px;
+    z-index:45;
+}
+#camper_information #label17
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #home_phone_f_container
+{
+    position:absolute;
+    left:176px;
+    top:621px;
+    z-index:42;
+}
+#camper_information #home_phone_f
+{
+    float:left;
+    width:144px;
+    z-index:42;
+}
+#camper_information #work_phone_f_container
+{
+    position:absolute;
+    left:424px;
+    top:621px;
+    z-index:44;
+}
+#camper_information #work_phone_f
+{
+    float:left;
+    width:144px;
+    z-index:44;
+}
+#camper_information #cell_phone_f_container
+{
+    position:absolute;
+    left:664px;
+    top:621px;
+    z-index:46;
+}
+#camper_information #cell_phone_f
+{
+    float:left;
+    width:144px;
+    z-index:46;
+}
+#camper_information #label22_container
+{
+    position:absolute;
+    left:887px;
+    top:631px;
+    width:144px;
+    height:20px;
+    z-index:57;
+}
+#camper_information #label22
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #confirm_email_f_container
+{
+    position:absolute;
+    left:1033px;
+    top:631px;
+    z-index:58;
+}
+#camper_information #confirm_email_f
+{
+    float:left;
+    width:114px;
+    z-index:58;
+}
+#camper_information #label18_container
+{
+    position:absolute;
+    left:97px;
+    top:662px;
+    width:60px;
+    height:20px;
+    z-index:47;
+}
+#camper_information #label18
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #address_f_container
+{
+    position:absolute;
+    left:176px;
+    top:662px;
+    z-index:48;
+}
+#camper_information #address_f
+{
+    float:left;
+    width:692px;
+    z-index:48;
+}
+#camper_information #label23_container
+{
+    position:absolute;
+    left:97px;
+    top:702px;
+    width:60px;
+    height:20px;
+    z-index:59;
+}
+#camper_information #label23
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label24_container
+{
+    position:absolute;
+    left:304px;
+    top:702px;
+    width:60px;
+    height:20px;
+    z-index:61;
+}
+#camper_information #label24
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label25_container
+{
+    position:absolute;
+    left:504px;
+    top:702px;
+    width:60px;
+    height:20px;
+    z-index:63;
+}
+#camper_information #label25
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label26_container
+{
+    position:absolute;
+    left:680px;
+    top:702px;
+    width:60px;
+    height:20px;
+    z-index:65;
+}
+#camper_information #label26
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #city_f_container
+{
+    position:absolute;
+    left:176px;
+    top:701px;
+    z-index:60;
+}
+#camper_information #city_f
+{
+    float:left;
+    width:114px;
+    z-index:60;
+}
+#camper_information #state_f_container
+{
+    position:absolute;
+    left:368px;
+    top:701px;
+    z-index:62;
+}
+#camper_information #state_f
+{
+    float:left;
+    width:120px;
+    height:22px;
+    z-index:62;
+}
+#camper_information #zip_f_container
+{
+    position:absolute;
+    left:576px;
+    top:701px;
+    z-index:64;
+}
+#camper_information #zip_f
+{
+    float:left;
+    width:74px;
+    z-index:64;
+}
+#camper_information #county_f_container
+{
+    position:absolute;
+    left:752px;
+    top:701px;
+    z-index:66;
+}
+#camper_information #county_f
+{
+    float:left;
+    width:80px;
+    z-index:66;
+}
+#camper_information #horiz_line
+{
+    position:absolute;
+    left:24px;
+    top:773px;
+    width:1157px;
+    height:5px;
+    z-index:67;
+    border:none;
+    border-top:1px solid #c0c0c0;
+}
+#camper_information #label20_container
+{
+    position:absolute;
+    left:41px;
+    top:806px;
+    width:116px;
+    height:20px;
+    z-index:53;
+}
+#camper_information #label20
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#camper_information #first_name_m_container
+{
+    position:absolute;
+    left:176px;
+    top:806px;
+    z-index:54;
+}
+#camper_information #first_name_m
+{
+    float:left;
+    width:272px;
+    z-index:54;
+}
+#camper_information #label27_container
+{
+    position:absolute;
+    left:473px;
+    top:808px;
+    width:116px;
+    height:20px;
+    z-index:68;
+}
+#camper_information #label27
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label28_container
+{
+    position:absolute;
+    left:896px;
+    top:808px;
+    width:125px;
+    height:20px;
+    z-index:70;
+}
+#camper_information #label28
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #last_name_m_container
+{
+    position:absolute;
+    left:592px;
+    top:808px;
+    z-index:69;
+}
+#camper_information #last_name_m
+{
+    float:left;
+    width:272px;
+    z-index:69;
+}
+#camper_information #email_m_container
+{
+    position:absolute;
+    left:1033px;
+    top:808px;
+    z-index:71;
+}
+#camper_information #email_m
+{
+    float:left;
+    width:114px;
+    z-index:71;
+}
+#camper_information #label30_container
+{
+    position:absolute;
+    left:77px;
+    top:846px;
+    width:80px;
+    height:20px;
+    z-index:74;
+}
+#camper_information #label30
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label31_container
+{
+    position:absolute;
+    left:336px;
+    top:846px;
+    width:76px;
+    height:20px;
+    z-index:76;
+}
+#camper_information #label31
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label32_container
+{
+    position:absolute;
+    left:592px;
+    top:846px;
+    width:60px;
+    height:20px;
+    z-index:78;
+}
+#camper_information #label32
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #home_phone_m_container
+{
+    position:absolute;
+    left:176px;
+    top:845px;
+    z-index:75;
+}
+#camper_information #home_phone_m
+{
+    float:left;
+    width:144px;
+    z-index:75;
+}
+#camper_information #work_phone_m_container
+{
+    position:absolute;
+    left:424px;
+    top:845px;
+    z-index:77;
+}
+#camper_information #work_phone_m
+{
+    float:left;
+    width:144px;
+    z-index:77;
+}
+#camper_information #cell_phone_m_container
+{
+    position:absolute;
+    left:664px;
+    top:845px;
+    z-index:79;
+}
+#camper_information #cell_phone_m
+{
+    float:left;
+    width:144px;
+    z-index:79;
+}
+#camper_information #label29_container
+{
+    position:absolute;
+    left:887px;
+    top:854px;
+    width:144px;
+    height:20px;
+    z-index:73;
+}
+#camper_information #label29
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #confirm_email_m_container
+{
+    position:absolute;
+    left:1033px;
+    top:854px;
+    z-index:72;
+}
+#camper_information #confirm_email_m
+{
+    float:left;
+    width:114px;
+    z-index:72;
+}
+#camper_information #label33_container
+{
+    position:absolute;
+    left:97px;
+    top:886px;
+    width:60px;
+    height:20px;
+    z-index:80;
+}
+#camper_information #label33
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #address_m_container
+{
+    position:absolute;
+    left:176px;
+    top:886px;
+    z-index:81;
+}
+#camper_information #address_m
+{
+    float:left;
+    width:692px;
+    z-index:81;
+}
+#camper_information #label37_container
+{
+    position:absolute;
+    left:719px;
+    top:925px;
+    width:60px;
+    height:20px;
+    z-index:88;
+}
+#camper_information #label37
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label35_container
+{
+    position:absolute;
+    left:320px;
+    top:926px;
+    width:60px;
+    height:20px;
+    z-index:84;
+}
+#camper_information #label35
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label34_container
+{
+    position:absolute;
+    left:97px;
+    top:926px;
+    width:60px;
+    height:20px;
+    z-index:82;
+}
+#camper_information #label34
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #label36_container
+{
+    position:absolute;
+    left:544px;
+    top:926px;
+    width:60px;
+    height:20px;
+    z-index:86;
+}
+#camper_information #label36
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#camper_information #city_m_container
+{
+    position:absolute;
+    left:176px;
+    top:925px;
+    z-index:83;
+}
+#camper_information #city_m
+{
+    float:left;
+    width:114px;
+    z-index:83;
+}
+#camper_information #state_m_container
+{
+    position:absolute;
+    left:392px;
+    top:925px;
+    z-index:85;
+}
+#camper_information #state_m
+{
+    float:left;
+    width:120px;
+    height:22px;
+    z-index:85;
+}
+#camper_information #zip_m_container
+{
+    position:absolute;
+    left:608px;
+    top:925px;
+    z-index:87;
+}
+#camper_information #zip_m
+{
+    float:left;
+    width:74px;
+    z-index:87;
+}
+#camper_information #county_m_container
+{
+    position:absolute;
+    left:808px;
+    top:925px;
+    z-index:89;
+}
+#camper_information #county_m
+{
+    float:left;
+    width:80px;
+    z-index:89;
+}
+#camper_information #box_element1
+{
+    position:absolute;
+    left:24px;
+    top:518px;
+    width:1160px;
+    height:500px;
+    z-index:1;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#camper_information #heading2_container
+{
+    position:absolute;
+    left:52px;
+    top:1065px;
+    width:258px;
+    height:20px;
+    z-index:90;
+}
+#camper_information #heading2
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:left;
+}
+#camper_information #label38_container
+{
+    position:absolute;
+    left:397px;
+    top:1058px;
+    width:809px;
+    height:60px;
+    z-index:5;
+    border-width:1px;
+    border-style:solid;
+    border-color:transparent;
+}
+#camper_information #label38
+{
+    position:absolute;
+    left:0px;
+    top:2px;
+    text-align:left;
+    font-family:Arial;
+    font-size:11pt;
+    color:#000000;
+}
+#camper_information #horiz_line1
+{
+    position:absolute;
+    left:24px;
+    top:1123px;
+    width:1160px;
+    height:5px;
+    z-index:91;
+    border:none;
+    border-top:1px solid #480048;
+}
+#camper_information #label39_container
+{
+    position:absolute;
+    left:249px;
+    top:1150px;
+    width:127px;
+    height:20px;
+    z-index:92;
+}
+#camper_information #label39
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#camper_information #roommate_1_container
+{
+    position:absolute;
+    left:397px;
+    top:1149px;
+    z-index:93;
+}
+#camper_information #roommate_1
+{
+    float:left;
+    width:369px;
+    z-index:93;
+}
+#camper_information #label40_container
+{
+    position:absolute;
+    left:249px;
+    top:1192px;
+    width:127px;
+    height:20px;
+    z-index:94;
+}
+#camper_information #label40
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#camper_information #roommate_2_container
+{
+    position:absolute;
+    left:397px;
+    top:1191px;
+    z-index:95;
+}
+#camper_information #roommate_2
+{
+    float:left;
+    width:369px;
+    z-index:95;
+}
+#camper_information #horiz_line2
+{
+    position:absolute;
+    left:24px;
+    top:1240px;
+    width:1160px;
+    height:5px;
+    z-index:96;
+    border:none;
+    border-top:1px solid #480048;
+}
+#camper_information #label41_container
+{
+    position:absolute;
+    left:44px;
+    top:1242px;
+    width:1123px;
+    height:20px;
+    z-index:6;
+    border-width:1px;
+    border-style:solid;
+    border-color:transparent;
+}
+#camper_information #label41
+{
+    position:absolute;
+    left:259px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:11pt;
+    font-style:italic;
+    color:#000000;
+}
+#camper_information #horiz_line3
+{
+    position:absolute;
+    left:24px;
+    top:1267px;
+    width:1160px;
+    height:5px;
+    z-index:97;
+    border:none;
+    border-top:1px solid #480048;
+}
+#camper_information #label42_container
+{
+    position:absolute;
+    left:34px;
+    top:1278px;
+    width:81px;
+    height:15px;
+    z-index:7;
+    border-width:1px;
+    border-style:solid;
+    border-color:transparent;
+}
+#camper_information #label42
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    text-decoration:underline;
+    color:#000000;
+}
+#camper_information #label43_container
+{
+    position:absolute;
+    left:123px;
+    top:1278px;
+    width:277px;
+    height:36px;
+    z-index:8;
+    border-width:1px;
+    border-style:solid;
+    border-color:transparent;
+}
+#camper_information #label43
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#camper_information #Continue_container
+{
+    position:absolute;
+    left:948px;
+    top:1332px;
+    width:80px;
+    height:25px;
+    z-index:99;
+}
+#camper_information #Continue
+{
+    float:left;
+    width:80px;
+    height:25px;
+    z-index:99;
+}
+#camper_information #Reset_container
+{
+    position:absolute;
+    left:1061px;
+    top:1332px;
+    width:80px;
+    height:25px;
+    z-index:101;
+}
+#camper_information #Reset
+{
+    float:left;
+    width:80px;
+    height:25px;
+    z-index:101;
+}
+#camper_information #vert_line
+{
+    position:absolute;
+    left:585px;
+    top:1267px;
+    width:5px;
+    height:149px;
+    z-index:98;
+    border:none;
+    border-left:1px solid #000000;
+}
+#camper_information #Captcha_container
+{
+    position:absolute;
+    left:609px;
+    top:1278px;
+    width:261px;
+    height:139px;
+    z-index:100;
+}
+#camper_information #box_element2
+{
+    position:absolute;
+    left:23px;
+    top:1043px;
+    width:1160px;
+    height:377px;
+    z-index:4;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}

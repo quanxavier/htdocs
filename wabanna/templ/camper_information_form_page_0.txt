@@ -1,0 +1,520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >Form Page: camper_information</title>
+      <meta name='generator' content='Simfatic Forms 4.0.12.416'/>
+      <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.18.custom.min.js' type='text/javascript'></script>
+      <script src='scripts/globalize.js' type='text/javascript'></script>
+      <script src='scripts/jquery-ui-1.8.21.custom.date.min.js' type='text/javascript'></script>
+      <script src='scripts/moment.js' type='text/javascript'></script>
+      <script src='scripts/sfm_calendar.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.number.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.utils.js' type='text/javascript'></script>
+      <script src='scripts/sfm_validatorv7.js' type='text/javascript'></script>
+      <link rel='stylesheet' type='text/css' href='style/jquery-ui-1.8.16.css'/>
+      <link rel='stylesheet' type='text/css' href='style/camper_information.css?r=%sfm_css_rand%'/>
+   </head>
+   <body id='sfm_camper_information_body'>
+      <form id='camper_information' class='sfm_form' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
+         <div id='camper_information_errorloc' class='error_strings' style='width:1209px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='camper_information_outer_div' class='form_outer_div' style='width:1209px;height:1478px'>
+            <div style='position:relative' id='camper_information_inner_div'>
+               <input type='hidden' name='sfm_form_submitted' value='yes'/>
+               <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'/>
+               <input type='text' name='tf303320c67b1b447c04d' id='tf303320c67b1b447c04d'/>
+               <div id='label_container'>
+                  <div id='label'>2016 Residential Registration Form<br />Ages 7-16</div>
+               </div>
+               <div id='Image1_container'>
+                  <img class='sfm_image_in_form' src='images/CampWabannaLogo_sized.png' width='346' height='103' alt=''/>
+               </div>
+               <div id='Image_container'>
+                  <img class='sfm_image_in_form' src='images/photo1236 (1).jpg' width='223' height='140' alt=''/>
+               </div>
+               <div id='heading_container' class='form_subheading'>
+                  <h2 id='heading' class='form_subheading'>Camper Information</h2>
+               </div>
+               <div id='label4_container' class='sfm_form_label'>
+                  <label id='label4' for='FirstName'>First Name</label>
+               </div>
+               <div id='label5_container' class='sfm_form_label'>
+                  <label id='label5' for='LastName'>Last Name</label>
+               </div>
+               <div id='FirstName_container'>
+                  <input type='text' name='FirstName' id='FirstName' value='%FirstName%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='LastName_container'>
+                  <input type='text' name='LastName' id='LastName' value='%LastName%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label2_container' class='sfm_form_label'>
+                  <label id='label2' for='Address'>Address</label>
+               </div>
+               <div id='Address_container'>
+                  <input type='text' name='Address' id='Address' value='%Address%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label3_container' class='sfm_form_label'>
+                  <label id='label3' for='City'>City</label>
+               </div>
+               <div id='label6_container' class='sfm_form_label'>
+                  <label id='label6' for='State'>State</label>
+               </div>
+               <div id='City_container'>
+                  <input type='text' name='City' id='City' value='%City%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='zip_container'>
+                  <input type='text' name='zip' id='zip' value='%zip%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label7_container' class='sfm_form_label'>
+                  <label id='label7' for='Zip'>Zip</label>
+               </div>
+               <div id='label12_container' class='sfm_form_label'>
+                  <label id='label12' for='county'>County</label>
+               </div>
+               <div id='state_container'>
+                  <select name='state' id='state' size='1'>
+                     <option value='000' %6c4e152bf76c449b9ee3b206e5f18c7d%>Select state</option>
+                     <option value='Alabama' %8c5d2219827dbfcd49a18696562d2b4c%>Alabama</option>
+                     <option value='Alaska' %ee0281b7c4825b854a2960b0ee0d8bb7%>Alaska</option>
+                     <option value='Arizona' %e415e4a434635d8544654a10f9eb1118%>Arizona</option>
+                     <option value='Arkansas' %fe61d814e485d82173a73d9b43f64e16%>Arkansas</option>
+                     <option value='California' %078cd6d201556d45a24d7505fcd431de%>California</option>
+                     <option value='Colorado' %289504b31efda12fb9429c06a34118a4%>Colorado</option>
+                     <option value='Connecticut' %ba67ca99d80d033b1e3e015e75548055%>Connecticut</option>
+                     <option value='Delaware' %5e2548ef63f4689de6146211983012a7%>Delaware</option>
+                     <option value='Florida' %f53090f6837ba6e02abbe5f068fb9c4b%>Florida</option>
+                     <option value='Georgia' %7cea140a973a15c110217695dee14031%>Georgia</option>
+                     <option value='Hawaii' %272dc9e32758044fb68805f3773e18ac%>Hawaii</option>
+                     <option value='Idaho' %5c51d28bd7b7ca36a9b0258cc57443d6%>Idaho</option>
+                     <option value='Illinois' %8cbcc3d83e057e07684778a41fef9ef7%>Illinois</option>
+                     <option value='Indiana' %f22ceec952d87c35a43348b4e63ebe1c%>Indiana</option>
+                     <option value='Iowa' %1bd0b58c16fa3a0695e0261ff5cfbf90%>Iowa</option>
+                     <option value='Kansas' %2af43d2e07cb780f44c6cbdbe1927078%>Kansas</option>
+                     <option value='Kentucky' %c6f33347f37dcf0224bbb9cd3142062c%>Kentucky</option>
+                     <option value='Louisiana' %3e1b95b3ec03d2ff6927f9238b9c7c6f%>Louisiana</option>
+                     <option value='Maine' %0f9a979808aeb50b83361b9478c5f9bb%>Maine</option>
+                     <option value='Maryland' %743622f916ab36058f26686a5d5f6963%>Maryland</option>
+                     <option value='Massachusetts' %4601dc6ae5a930b4535a2d12339107e3%>Massachusetts</option>
+                     <option value='Michigan' %f04dcfda271cb066d3cd64cc869b6e60%>Michigan</option>
+                     <option value='Minnesota' %5a08df2f854a72bfc008995e17b483d7%>Minnesota</option>
+                     <option value='Mississippi' %5552b4d4a212a350a5e2b64f565a768c%>Mississippi</option>
+                     <option value='Missouri' %7c4501389c15817baac7e6f2474aae37%>Missouri</option>
+                     <option value='Montana' %6fa1c0ff07fd0eea9931f231721b0ae2%>Montana</option>
+                     <option value='Nebraska' %165e530aa182fc0845c2ca2534197463%>Nebraska</option>
+                     <option value='Nevada' %21133e31abc1a39f98654cf1dc8bb506%>Nevada</option>
+                     <option value='New_Hampshire' %a814dd515ca2dff54f54c3feff8a4182%>New Hampshire</option>
+                     <option value='New_Jersey' %3bf0795c102179b214e3949c804b2f23%>New Jersey</option>
+                     <option value='New_Mexico' %d08aa31ffa1d9450d1b4608b016110bb%>New Mexico</option>
+                     <option value='New_York' %e9937c7b9315f8d9cf14543addcc25ac%>New York</option>
+                     <option value='North_Carolina' %bd4fbfa3966191d97d68dcef75649578%>North Carolina</option>
+                     <option value='North_Dakota' %7fe6ab3771cf4c760f03dd41d36af0c8%>North Dakota</option>
+                     <option value='Ohio' %82ed97d3e574f7ef0623d09bf4b82d6c%>Ohio</option>
+                     <option value='Oklahoma' %e2397e1a8c1f565b7c184a861eb6614b%>Oklahoma</option>
+                     <option value='Oregon' %0efa6b23ff4b416ea53377e68b5eecd6%>Oregon</option>
+                     <option value='Pennsylvania' %156fcc13cf8532cb017cb5d305b4b046%>Pennsylvania</option>
+                     <option value='Rhode_Island' %9f909f808a14065922fb601276130512%>Rhode Island</option>
+                     <option value='South_Carolina' %2808fc4576ac480bb2ce1d02212a0a27%>South Carolina</option>
+                     <option value='South_Dakota' %b52e183adc3f8a1bc1fe4f527df488fd%>South Dakota</option>
+                     <option value='Tennessee' %f45a0f1df9f731cf06cf0360c0bdd287%>Tennessee</option>
+                     <option value='Texas' %1ac5bcbb4decec608d9c94e11d92295d%>Texas</option>
+                     <option value='Utah' %df3b68a2c87c2031cb6b7d41b4cefbe3%>Utah</option>
+                     <option value='Vermont' %29a6f887ae35aec4e1599fd198b4f9e7%>Vermont</option>
+                     <option value='Virginia' %6a6a40013cae6f156d38ed40145eb11c%>Virginia</option>
+                     <option value='Washington' %51294cf9270d87f64b9db6e20f9a4e70%>Washington</option>
+                     <option value='Virginia' %6a6a40013cae6f156d38ed40145eb11c%>West</option>
+                     <option value='Wisconsin' %ae67001be3f64210306a1eb99fb4c159%>Wisconsin</option>
+                     <option value='Wyoming' %7d3dc13154c4af44f219a0d4cb853e76%>Wyoming</option>
+                  </select>
+               </div>
+               <div id='county_container'>
+                  <input type='text' name='county' id='county' value='%county%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='comment_container'><textarea name='comment' id='comment' class='sfm_textarea'>%comment%</textarea></div>
+               <div id='label8_container' class='sfm_form_label'>
+                  <label id='label8' for='DOB'>Date of Birth</label>
+               </div>
+               <div id='label9_container' class='sfm_form_label'>
+                  <label id='label9' for='Age'>Age</label>
+               </div>
+               <div class='sfm_element_container' id='DOB_container'>
+                  <input type='text' name='DOB' id='DOB' value='%DOB%'/>
+                  <input type='text' name='sfm_DOB_parsed' id='sfm_DOB_parsed' tabindex='-1' style='display:none'/>
+                  <div id='DOB_image_container'>
+                     <img id='DOB_image' class='sfm_datepicker_icon' src='images/date-picker.gif' width='20' height='20' alt='Click here to open the date picker'/>
+                  </div>
+               </div>
+               <div id='Age_container'>
+                  <input type='text' name='Age' id='Age' value='%Age%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label10_container' class='sfm_form_label'>
+                  <label id='label10' for='Grade'>Current Grade</label>
+               </div>
+               <div id='Grade_container'>
+                  <input type='text' name='Grade' id='Grade' value='%Grade%'/>
+                  <input type='text' name='sfm_Grade_parsed' id='sfm_Grade_parsed' tabindex='-1' style='display:none'/>
+               </div>
+               <div id='label1_container' class='sfm_form_label'>
+                  <label id='label1'>Gender</label>
+               </div>
+               <div id='label11_container' class='sfm_form_label'>
+                  <label id='label11'>Is this your first summer with us?</label>
+               </div>
+               <div class='element_label' id='Gender_0_container'><input type='radio' name='Gender' id='Gender_radio_0' value='male' %add56acb19c20a9d3dedce4c786d6a03%/><label for='Gender_radio_0' class='element_label' id='Gender_radio_0_label'>Male</label></div>
+               <div class='element_label' id='Gender_1_container'><input type='radio' name='Gender' id='Gender_radio_1' value='female' tabindex='1' %da0e3ac48f8f7d43d4000b4a88d7a122%/><label for='Gender_radio_1' class='element_label' id='Gender_radio_1_label'>Female</label></div>
+               <div id='label19_container' class='sfm_form_label'>
+                  <label id='label19' for='comment'>How did you hear about us?</label>
+               </div>
+               <div class='element_label' id='yes_no_0_container'><input type='radio' name='yes_no' id='yes_no_radio_0' value='yes' %da6af410e73d9a4e15cd039546f19cf5%/><label for='yes_no_radio_0' class='element_label' id='yes_no_radio_0_label'>Yes</label></div>
+               <div class='element_label' id='yes_no_1_container'><input type='radio' name='yes_no' id='yes_no_radio_1' value='no' tabindex='1' %d50ec17d1de009abeb9c9f4fb3c19673%/><label for='yes_no_radio_1' class='element_label' id='yes_no_radio_1_label'>No</label></div>
+               <div id='box_element'></div>
+               <div id='heading1_container' class='form_subheading'>
+                  <h2 id='heading1' class='form_subheading'>Parent/Gaurdian information</h2>
+               </div>
+               <div id='label13_container' class='sfm_form_label'>
+                  <label id='label13' for='first_name_f'>Father's First Name</label>
+               </div>
+               <div id='label14_container' class='sfm_form_label'>
+                  <label id='label14' for='last_name_f'>Father's Last Name</label>
+               </div>
+               <div id='first_name_f_container'>
+                  <input type='text' name='first_name_f' id='first_name_f' value='%first_name_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label21_container' class='sfm_form_label'>
+                  <label id='label21' for='email_f'>Father's email address</label>
+               </div>
+               <div id='last_name_f_container'>
+                  <input type='text' name='last_name_f' id='last_name_f' value='%last_name_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='email_f_container'>
+                  <input type='text' name='email_f' id='email_f' value='%email_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label15_container' class='sfm_form_label'>
+                  <label id='label15' for='home_phone_f'>Home Phone</label>
+               </div>
+               <div id='label16_container' class='sfm_form_label'>
+                  <label id='label16' for='work_phone_f'>Work Phone</label>
+               </div>
+               <div id='label17_container' class='sfm_form_label'>
+                  <label id='label17' for='cell_phone_f'>Cell Phone</label>
+               </div>
+               <div id='home_phone_f_container'>
+                  <input type='text' name='home_phone_f' id='home_phone_f' value='%home_phone_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='work_phone_f_container'>
+                  <input type='text' name='work_phone_f' id='work_phone_f' value='%work_phone_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='cell_phone_f_container'>
+                  <input type='text' name='cell_phone_f' id='cell_phone_f' value='%cell_phone_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label22_container' class='sfm_form_label'>
+                  <label id='label22' for='confirm_email_f'>Confirm email</label>
+               </div>
+               <div id='confirm_email_f_container'>
+                  <input type='text' name='confirm_email_f' id='confirm_email_f' value='%confirm_email_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label18_container' class='sfm_form_label'>
+                  <label id='label18' for='address_f'>Address</label>
+               </div>
+               <div id='address_f_container'>
+                  <input type='text' name='address_f' id='address_f' value='%address_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label23_container' class='sfm_form_label'>
+                  <label id='label23' for='city_f'>City</label>
+               </div>
+               <div id='label24_container' class='sfm_form_label'>
+                  <label id='label24'>State</label>
+               </div>
+               <div id='label25_container' class='sfm_form_label'>
+                  <label id='label25' for='Zip_f'>Zip</label>
+               </div>
+               <div id='label26_container' class='sfm_form_label'>
+                  <label id='label26' for='county_f'>County</label>
+               </div>
+               <div id='city_f_container'>
+                  <input type='text' name='city_f' id='city_f' value='%city_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='state_f_container'>
+                  <select name='state_f' id='state_f' size='1'>
+                     <option value='000' %3916dbb37f0b4821f4531ccd79564b70%>Select state</option>
+                     <option value='Alabama' %293231698dda6320c3fb35adf4ad3e30%>Alabama</option>
+                     <option value='Alaska' %3a56ab7b30136adb8c0cc431fcd3009e%>Alaska</option>
+                     <option value='Arizona' %bb00d3f2a120927289ad233134215814%>Arizona</option>
+                     <option value='Arkansas' %08ae57bdb16880b4f02e9d4306ab99a2%>Arkansas</option>
+                     <option value='California' %f1e804f298b13021e9cd76d7984ed361%>California</option>
+                     <option value='Colorado' %5ab9ada3567bf9d93639bc89f831dfb2%>Colorado</option>
+                     <option value='Connecticut' %e369856f264d48ed7ed8b77425864be3%>Connecticut</option>
+                     <option value='Delaware' %a97ef2b106a0e9a133bd81250e184e3c%>Delaware</option>
+                     <option value='Florida' %c916c271606f31db061a83c9d35cd24e%>Florida</option>
+                     <option value='Georgia' %f111191fdda4f9745024e3ad38d74b67%>Georgia</option>
+                     <option value='Hawaii' %661d5112b9010b9d637a4350ced3328b%>Hawaii</option>
+                     <option value='Idaho' %c76e896f0c47f2841540e35bff868a6f%>Idaho</option>
+                     <option value='Illinois' %df6936c19174d6839055ac846df9c8a7%>Illinois</option>
+                     <option value='Indiana' %8eab304b003338c164c23a43e9974002%>Indiana</option>
+                     <option value='Iowa' %da42f73a93de9fd158b34948cbd03b48%>Iowa</option>
+                     <option value='Kansas' %5d2ad90adc0e090675cec46ed084ff5d%>Kansas</option>
+                     <option value='Kentucky' %2840e822d88c46f342cd4262b0868451%>Kentucky</option>
+                     <option value='Louisiana' %d1848b597c7dcac508c7878609132edc%>Louisiana</option>
+                     <option value='Maine' %7d294235238a8adc2c8b9d0023703518%>Maine</option>
+                     <option value='Maryland' %d2805e70b21504b0b36f1ce99d6cc046%>Maryland</option>
+                     <option value='Massachusetts' %8e88be15a86f02a1f10e5f2a1c31d89a%>Massachusetts</option>
+                     <option value='Michigan' %344500cd876dbad643a0f861117bd10f%>Michigan</option>
+                     <option value='Minnesota' %3dc7979ece42c41e9adf2e248afbf512%>Minnesota</option>
+                     <option value='Mississippi' %04d034e6da1bcac01f216dc6e6af0182%>Mississippi</option>
+                     <option value='Missouri' %a7b845bc2fb3e64f9726c8a8f5af8b8c%>Missouri</option>
+                     <option value='Montana' %dbc22890c0e88b93380e94de7a52d5f6%>Montana</option>
+                     <option value='Nebraska' %a8e15c5320bcfd3928f377d9320ae6b8%>Nebraska</option>
+                     <option value='Nevada' %1fd2d8e5511fcdaccf0a4903ab4f3306%>Nevada</option>
+                     <option value='New_Hampshire' %1c3b28f265a3289892e4398a9045b00a%>New Hampshire</option>
+                     <option value='New_Jersey' %41a1a999f6cc240a8b658a38311ec371%>New Jersey</option>
+                     <option value='New_Mexico' %b602462b2465e46d839ce77f4afb60a3%>New Mexico</option>
+                     <option value='New_York' %ac24dec98fc88a7c38b548d550350397%>New York</option>
+                     <option value='North_Carolina' %04503a47ccfd3b6d7a77c69653ba7263%>North Carolina</option>
+                     <option value='North_Dakota' %82b4fc31af3cf8a3dfbb7f285b58b646%>North Dakota</option>
+                     <option value='Ohio' %e2816f9eba40ad68b4071b4545bb4e3c%>Ohio</option>
+                     <option value='Oklahoma' %e9493c0921e8b3d6d8792c083b9c6fa2%>Oklahoma</option>
+                     <option value='Oregon' %8962c9849437b05a7b840784523d8be4%>Oregon</option>
+                     <option value='Pennsylvania' %7753007be385f98b91b6620c8850e3f2%>Pennsylvania</option>
+                     <option value='Rhode_Island' %211044f3b9ecec67a483047bfb0cad58%>Rhode Island</option>
+                     <option value='South_Carolina' %3d5fcc1d2a1c7d2bca25c3958738bd67%>South Carolina</option>
+                     <option value='South_Dakota' %fbc40c9cffd65ba54f0b03d4e1f7d31b%>South Dakota</option>
+                     <option value='Tennessee' %eb8e7f33c25b380b1831bfc67d0b4775%>Tennessee</option>
+                     <option value='Texas' %88b7ee248447737e7a348c1e95405691%>Texas</option>
+                     <option value='Utah' %6f861219a79e301cf54009fa99541aae%>Utah</option>
+                     <option value='Vermont' %3455104024858756688eecfecb7740b0%>Vermont</option>
+                     <option value='Virginia' %bf4ecb2ac89aa3c5ea213f42399c4114%>Virginia</option>
+                     <option value='Washington' %76bf69e9dc21dbbed2a5a3310120b3ad%>Washington</option>
+                     <option value='Virginia' %bf4ecb2ac89aa3c5ea213f42399c4114%>West</option>
+                     <option value='Wisconsin' %639e991b7f12059bb3bdfccf7c3cf834%>Wisconsin</option>
+                     <option value='Wyoming' %78fe991e1375fc1efacfc1303f479a68%>Wyoming</option>
+                  </select>
+               </div>
+               <div id='zip_f_container'>
+                  <input type='text' name='zip_f' id='zip_f' value='%zip_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='county_f_container'>
+                  <input type='text' name='county_f' id='county_f' value='%county_f%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='horiz_line'></div>
+               <div id='label20_container' class='sfm_form_label'>
+                  <label id='label20' for='first_name_m'>Mother's First Name</label>
+               </div>
+               <div id='first_name_m_container'>
+                  <input type='text' name='first_name_m' id='first_name_m' value='%first_name_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label27_container' class='sfm_form_label'>
+                  <label id='label27' for='last_name_m'>Mother's Last Name</label>
+               </div>
+               <div id='label28_container' class='sfm_form_label'>
+                  <label id='label28' for='email_m'>Mother's email address</label>
+               </div>
+               <div id='last_name_m_container'>
+                  <input type='text' name='last_name_m' id='last_name_m' value='%last_name_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='email_m_container'>
+                  <input type='text' name='email_m' id='email_m' value='%email_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label30_container' class='sfm_form_label'>
+                  <label id='label30' for='home_phone_m'>Home Phone</label>
+               </div>
+               <div id='label31_container' class='sfm_form_label'>
+                  <label id='label31' for='work_phone_m'>Work Phone</label>
+               </div>
+               <div id='label32_container' class='sfm_form_label'>
+                  <label id='label32' for='cell_phone_m'>Cell Phone</label>
+               </div>
+               <div id='home_phone_m_container'>
+                  <input type='text' name='home_phone_m' id='home_phone_m' value='%home_phone_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='work_phone_m_container'>
+                  <input type='text' name='work_phone_m' id='work_phone_m' value='%work_phone_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='cell_phone_m_container'>
+                  <input type='text' name='cell_phone_m' id='cell_phone_m' value='%cell_phone_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label29_container' class='sfm_form_label'>
+                  <label id='label29' for='confirm_email_m'>Confirm email</label>
+               </div>
+               <div id='confirm_email_m_container'>
+                  <input type='text' name='confirm_email_m' id='confirm_email_m' value='%confirm_email_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label33_container' class='sfm_form_label'>
+                  <label id='label33' for='address_m'>Address</label>
+               </div>
+               <div id='address_m_container'>
+                  <input type='text' name='address_m' id='address_m' value='%address_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label37_container' class='sfm_form_label'>
+                  <label id='label37' for='county_m'>County</label>
+               </div>
+               <div id='label35_container' class='sfm_form_label'>
+                  <label id='label35' for='state_m'>State</label>
+               </div>
+               <div id='label34_container' class='sfm_form_label'>
+                  <label id='label34' for='city_m'>City</label>
+               </div>
+               <div id='label36_container' class='sfm_form_label'>
+                  <label id='label36' for='zip_m'>Zip</label>
+               </div>
+               <div id='city_m_container'>
+                  <input type='text' name='city_m' id='city_m' value='%city_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='state_m_container'>
+                  <select name='state_m' id='state_m' size='1'>
+                     <option value='000' %99727f712ca28c90cf93c86a50f47bab%>Select state</option>
+                     <option value='Alabama' %0cc4936ffa83b0ae667e9565a283f6f8%>Alabama</option>
+                     <option value='Alaska' %2fed12320bf0613354e90981be59f56d%>Alaska</option>
+                     <option value='Arizona' %22343dee0b88dc94e5795f9f880c22cd%>Arizona</option>
+                     <option value='Arkansas' %67e494d3b57640566cfd2da0b231f157%>Arkansas</option>
+                     <option value='California' %6ec76662fccb31f392fe5556ca54e835%>California</option>
+                     <option value='Colorado' %7ca17061c8c92eb03741fcdc562450b4%>Colorado</option>
+                     <option value='Connecticut' %4006a23b6fb16bb21dd804a4a6d3ff41%>Connecticut</option>
+                     <option value='Delaware' %f8b4258d99b0d59e9ddb5bd200aabe84%>Delaware</option>
+                     <option value='Florida' %a0395187846733b3dfd93029d3634347%>Florida</option>
+                     <option value='Georgia' %9e9b02f31e6a0b6a460d1c1c999acd30%>Georgia</option>
+                     <option value='Hawaii' %3361686c530e221bba9fe29cbf293aae%>Hawaii</option>
+                     <option value='Idaho' %b875defcccb77c80436495aafa046e34%>Idaho</option>
+                     <option value='Illinois' %609e802e706bdf1fd15498b184c2e292%>Illinois</option>
+                     <option value='Indiana' %bc42c8b7885a46b8f7fcb4122cc556d3%>Indiana</option>
+                     <option value='Iowa' %5fc6cbf37a9c2db727158d2b739c8aec%>Iowa</option>
+                     <option value='Kansas' %904320812096cccec437bf2d0fc2dfc4%>Kansas</option>
+                     <option value='Kentucky' %0d9404ab61d16ec353211bf2b8f75525%>Kentucky</option>
+                     <option value='Louisiana' %3627afc2a2d45b11117573a60ed52935%>Louisiana</option>
+                     <option value='Maine' %233324ccbf37c72524e53335d428c8e4%>Maine</option>
+                     <option value='Maryland' %571341b9967367d3dbcb2d12832abbfc%>Maryland</option>
+                     <option value='Massachusetts' %d37142d87c9dbccc21c6f4dfecd6e6b8%>Massachusetts</option>
+                     <option value='Michigan' %9d4420b8bcaa93d7b66d357affdf6550%>Michigan</option>
+                     <option value='Minnesota' %19c90b468f3438610e1d47dd66778d9b%>Minnesota</option>
+                     <option value='Mississippi' %9f2bdb932d0a32335c1b8e1d5b87c382%>Mississippi</option>
+                     <option value='Missouri' %4a703fac573d54bf8b8ea5cc4f77c402%>Missouri</option>
+                     <option value='Montana' %69aa876f5184d08dec6a594a43d6b924%>Montana</option>
+                     <option value='Nebraska' %051adfabc10614272a032854fe5fb6b9%>Nebraska</option>
+                     <option value='Nevada' %3906f4856150e878759f8b6613f123c0%>Nevada</option>
+                     <option value='New_Hampshire' %60ff999418c84984bc18143021c3cb0d%>New Hampshire</option>
+                     <option value='New_Jersey' %e19a1469e72a7a3c84b9962b84c1d2f0%>New Jersey</option>
+                     <option value='New_Mexico' %841177d81d2b3539dcc86feb91a6adce%>New Mexico</option>
+                     <option value='New_York' %12590c5f8adca325b6a48e51c19ed522%>New York</option>
+                     <option value='North_Carolina' %4c26aacf56ae6bda849ad14503fb3b9f%>North Carolina</option>
+                     <option value='North_Dakota' %e5616e39091ad90b45f6e01dd51dc41f%>North Dakota</option>
+                     <option value='Ohio' %44e69b0b4f3227300100302c2a4e73d9%>Ohio</option>
+                     <option value='Oklahoma' %c072aa227d2f7f5dcb868d8d2320d29d%>Oklahoma</option>
+                     <option value='Oregon' %2f254405c19c37ce98ed9b45ef8b8a99%>Oregon</option>
+                     <option value='Pennsylvania' %83f7738ece261d2a1792980e609598e7%>Pennsylvania</option>
+                     <option value='Rhode_Island' %8d7311190a8b4681f50ab26e1b6a8873%>Rhode Island</option>
+                     <option value='South_Carolina' %80a204f54b738bf6514c1ab4ac9ec28f%>South Carolina</option>
+                     <option value='South_Dakota' %7b0c82d9bbe8c239758f08190a66e232%>South Dakota</option>
+                     <option value='Tennessee' %519fad896f6809528c5c85b91afd04e4%>Tennessee</option>
+                     <option value='Texas' %3a53af9cdd59db54279fb4cc7de491ea%>Texas</option>
+                     <option value='Utah' %f2217cf86753c1f63455503a3b0f7fdd%>Utah</option>
+                     <option value='Vermont' %ee997de53b530e7406061e34d738979f%>Vermont</option>
+                     <option value='Virginia' %5a396ad92f84ee478fab09b55a0e7131%>Virginia</option>
+                     <option value='Washington' %be7f99b4086685d1aad38350bc92e9dc%>Washington</option>
+                     <option value='Virginia' %5a396ad92f84ee478fab09b55a0e7131%>West</option>
+                     <option value='Wisconsin' %3faced5365d9efc50523c1e074ae2fc4%>Wisconsin</option>
+                     <option value='Wyoming' %5c6c8d1a58530f891f36afec06741bf4%>Wyoming</option>
+                  </select>
+               </div>
+               <div id='zip_m_container'>
+                  <input type='text' name='zip_m' id='zip_m' value='%zip_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='county_m_container'>
+                  <input type='text' name='county_m' id='county_m' value='%county_m%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='box_element1'></div>
+               <div id='heading2_container' class='form_subheading'>
+                  <h2 id='heading2' class='form_subheading'>Roommate Request</h2>
+               </div>
+               <div id='label38_container'>
+                  <div id='label38'>Camper may request two roommates only if the meet these criteria:<br />1. They are the same gender and NO MORE than 12 months apart (except for 11&12 yr olds. See note below*)<br />2. The requested roommate must also request your camper</div>
+               </div>
+               <div id='horiz_line1'></div>
+               <div id='label39_container' class='sfm_form_label'>
+                  <label id='label39' for='roommate_1'>Roommate Request 1:</label>
+               </div>
+               <div id='roommate_1_container'>
+                  <input type='text' name='roommate_1' id='roommate_1' value='%roommate_1%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='label40_container' class='sfm_form_label'>
+                  <label id='label40' for='roommate_2'>Roommate Request 2:</label>
+               </div>
+               <div id='roommate_2_container'>
+                  <input type='text' name='roommate_2' id='roommate_2' value='%roommate_2%' size='20' class='sfm_textbox'/>
+               </div>
+               <div id='horiz_line2'></div>
+               <div id='label41_container'>
+                  <div id='label41'>Every effort will be made to accommodate roommate request but we cannot guarantee them.</div>
+               </div>
+               <div id='horiz_line3'></div>
+               <div id='label42_container'>
+                  <div id='label42'>*Please note</div>
+               </div>
+               <div id='label43_container'>
+                  <div id='label43'>7-11 yr.olds are in the Junior Program; 12-16 yr. olds are in the Senior Program-these age groups will each be housed in separate dormitory facilities. Age for program placement is determined by the date your camper session begins.</div>
+               </div>
+               <div id='Continue_container' class='loading_div'>
+                  <input type='submit' name='Continue' value='Continue' id='Continue'/>
+               </div>
+               <div id='Reset_container'>
+                  <input type='button' name='Reset' value='Reset' onclick='sfm_clear_form(&#039;form#camper_information&#039;)' id='Reset'/>
+               </div>
+               <div id='vert_line'></div>
+               <div id='Captcha_container'>
+                  <div >
+                     <img class='sfm_captcha' id='img_Captcha' src='%sfm_self_script%&amp;sfm_get_captcha=1&amp;sfm_captcha_k=%_sfm_form_page_session_id_%' width='150' height='60' alt='Captcha'/>
+                  </div>
+                  <div class='element_label'>Please enter the code above in the box below.</div>
+                  <div >
+                     <input type='text' name='sfm_captcha_Captcha' id='sfm_captcha_Captcha'/>
+                     <input type='hidden' name='sfm_captcha_Captcha_k' id='sfm_captcha_Captcha_k' value='%_sfm_form_page_session_id_%'/>
+                  </div>
+                  <div class='element_label'>
+                     <small >Can't read the image? Please click <a href="javascript: void(0);" onclick="sfm_refresh_captcha('img_Captcha','sfm_captcha_Captcha','%_sfm_form_page_session_id_%') ;return true;">here</a> to refresh</small>
+                  </div>
+               </div>
+               <div id='box_element2'></div>
+            </div>
+         </div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Built with <a style='text-decoration:none;' href='http://www.simfatic.com'>Simfatic Forms</a> web form builder.</div>
+      </form>
+      <script type='text/javascript'>
+// <![CDATA[
+$(function()
+{
+   new sfm_calendar({input_id:"DOB",image_id:"DOB_image",form_id:"camper_information",mirror:"sfm_DOB_parsed"})
+   new sfm_number_field('Grade','camper_information',{mirror:'sfm_Grade_parsed'});
+   sfm_show_loading_on_formsubmit('camper_information','Continue');
+});
+
+// ]]>
+      </script>
+      <script type='text/javascript'>
+// <![CDATA[
+var camper_informationValidator = new Validator("camper_information");
+camper_informationValidator.addValidation("FirstName",{required:true,message:"Please fill in FirstName"} );
+camper_informationValidator.addValidation("LastName",{required:true,message:"Please fill in LastName"} );
+camper_informationValidator.addValidation("Address",{required:true,message:"Please fill in Address"} );
+camper_informationValidator.addValidation("City",{required:true,message:"Please fill in City"} );
+camper_informationValidator.addValidation("zip",{regexp:"^\\d{5}(-\\d{4})?$",message:"Please enter a valid input for Zip"} );
+camper_informationValidator.addValidation("zip",{required:true,message:"Please fill in zip"} );
+camper_informationValidator.addValidation("zip",{numeric:true,message:"The input for zip should be a valid numeric value"} );
+camper_informationValidator.addValidation("DOB",{required:true,message:"Please fill in DOB"} );
+camper_informationValidator.addValidation("Grade",{numeric:true,message:"The input for  should be a valid numeric value"} );
+camper_informationValidator.addValidation("Gender",{selone:true,message:"Please select gender"} );
+camper_informationValidator.addValidation("yes_no",{selone:true,message:"Please select yes or no"} );
+camper_informationValidator.addValidation("email_f",{email:true,message:"The input for Email should be a valid email value"} );
+camper_informationValidator.addValidation("confirm_email_f",{email:true,message:"The input for Email should be a valid email value"} );
+camper_informationValidator.addValidation("confirm_email_f",{eqelmnt:"email_f",message:"confirm_email_f should be equal to email_f"} );
+camper_informationValidator.addValidation("zip_f",{regexp:"^\\d{5}(-\\d{4})?$",message:"Please enter a valid input for Zip"} );
+camper_informationValidator.addValidation("zip_f",{numeric:true,message:"The input for zip_f should be a valid numeric value"} );
+camper_informationValidator.addValidation("email_m",{email:true,message:"The input for Email should be a valid email value"} );
+camper_informationValidator.addValidation("confirm_email_m",{email:true,message:"The input for Email should be a valid email value"} );
+camper_informationValidator.addValidation("confirm_email_m",{eqelmnt:"email_m",message:"confirm_email_m should be equal to email_m"} );
+camper_informationValidator.addValidation("zip_m",{regexp:"^\\d{5}(-\\d{4})?$",message:"Please enter a valid input for Zip"} );
+camper_informationValidator.addValidation("zip_m",{numeric:true,message:"The input for zip_m should be a valid numeric value"} );
+camper_informationValidator.addValidation("sfm_captcha_Captcha",{required:true,message:"Please input the code displayed in the image"} );
+camper_informationValidator.addValidation("sfm_captcha_Captcha",{remote:"?sfm_validate_captcha=y&sfm_captcha_Captcha_k=%_sfm_form_page_session_id_%"} );
+
+// ]]>
+      </script>
+   </body>
+</html>

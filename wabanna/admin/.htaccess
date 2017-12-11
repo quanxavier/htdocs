@@ -1,0 +1,4 @@
+Authtype Basic
+AuthName "Please check back later..."
+AuthUserFile /opt/lampp/htdocs/wabanna/admin/.htpasswd
+Require valid-user

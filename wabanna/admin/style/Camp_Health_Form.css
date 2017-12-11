@@ -1,0 +1,3109 @@
+#Camp_Health_Form .sfm_textbox
+{
+    padding:1px;
+}
+#Camp_Health_Form .sfm_textarea
+{
+    padding:2px;
+    resize:none;
+}
+#Camp_Health_Form .error_strings
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#660000;
+}
+#Camp_Health_Form img
+{
+    border:0;
+}
+#Camp_Health_Form .loading_div
+{
+    background-color:transparent;
+    background-image:url("images/loading.gif");
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+#Camp_Health_Form input[type='submit'],input[type='reset']
+{
+    font:inherit;
+    color:inherit;
+}
+#Camp_Health_Form .sfm_cr_box
+{
+    font-family:Verdana;
+    font-size:10px;
+    color:#888888;
+}
+#Camp_Health_Form .sfm_cr_box a
+{
+    color:#888888;
+}
+#Camp_Health_Form .form_outer_div
+{
+    margin:0 auto;
+    border:none;
+    background-color:transparent;
+}
+#Camp_Health_Form .sfm_form_label
+{
+    background-color:transparent;
+}
+#Camp_Health_Form .element_label
+{
+    background-color:transparent;
+}
+body#sfm_Camp_Health_Form_body
+{
+    background-color:#ffffff;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    margin:0px;
+}
+#Camp_Health_Form .form_outer_div
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+}
+#Camp_Health_Form .form_subheading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#Camp_Health_Form .sfm_float_error_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+    background:none repeat scroll 0 0 #333333;
+    border:0;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow:0 0 4px #333;
+    border:none;
+}
+#Camp_Health_Form .sfm_close_box
+{
+    font-family:Verdana;
+    font-size:12px;
+    color:#eeeeee;
+}
+#Camp_Health_Form .progress_box_container
+{
+    border:1px solid #8e8e8e;
+    background-color:#cccccc;
+    font-family:Arial;
+    font-size:10px;
+    color:#ffffff;
+    text-align:center;
+    vertical-align:middle;
+}
+#Camp_Health_Form .progress_box
+{
+    background-color:#333333;
+    width:2px;
+    float:left;
+    margin:2px;
+}
+#Camp_Health_Form .page_heading
+{
+    background-color:transparent;
+    margin:0;
+    padding:0;
+}
+#Camp_Health_Form .page_number
+{
+    background-color:transparent;
+}
+
+
+#Camp_Health_Form #label62_container
+{
+    background-color:#ffff00;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    font-weight:bold;
+    text-decoration:underline;
+    background-color:#ffff00;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    font-weight:bold;
+    text-decoration:underline;
+}
+#Camp_Health_Form #label62
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    font-weight:bold;
+    text-decoration:underline;
+}
+#Camp_Health_Form #label25_container
+{
+    background-color:#ffff00;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    font-weight:bold;
+    background-color:#ffff00;
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    font-weight:bold;
+}
+#Camp_Health_Form #label25
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#000000;
+    font-weight:bold;
+}
+#Camp_Health_Form #label27
+{
+    font-family:Arial;
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+#Camp_Health_Form #label_container
+{
+    position:absolute;
+    left:25px;
+    top:32px;
+    width:1350px;
+    height:60px;
+    z-index:1;
+}
+#Camp_Health_Form #label
+{
+    position:absolute;
+    left:541px;
+    top:12px;
+    text-align:center;
+    font-family:Adobe Fan Heiti Std B;
+    font-size:20pt;
+    font-style:italic;
+    font-weight:bold;
+    color:#000000;
+}
+#Camp_Health_Form #Image_container
+{
+    position:absolute;
+    left:1074px;
+    top:21px;
+    width:261px;
+    height:78px;
+    z-index:31;
+}
+#Camp_Health_Form #Image1_container
+{
+    position:absolute;
+    left:64px;
+    top:0px;
+    width:191px;
+    height:120px;
+    z-index:32;
+}
+#Camp_Health_Form #box_element
+{
+    position:absolute;
+    left:25px;
+    top:5px;
+    width:1350px;
+    height:157px;
+    z-index:2;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#Camp_Health_Form #label1_container
+{
+    position:absolute;
+    left:48px;
+    top:188px;
+    width:883px;
+    height:21px;
+    z-index:3;
+}
+#Camp_Health_Form #label1
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:16pt;
+    color:#000000;
+}
+#Camp_Health_Form #label2_container
+{
+    position:absolute;
+    left:48px;
+    top:232px;
+    width:60px;
+    height:20px;
+    z-index:33;
+}
+#Camp_Health_Form #label2
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#Camp_Health_Form #label3_container
+{
+    position:absolute;
+    left:346px;
+    top:232px;
+    width:60px;
+    height:20px;
+    z-index:35;
+}
+#Camp_Health_Form #label3
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#Camp_Health_Form #label4_container
+{
+    position:absolute;
+    left:646px;
+    top:232px;
+    width:150px;
+    height:20px;
+    z-index:37;
+}
+#Camp_Health_Form #label4
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#Camp_Health_Form #label5_container
+{
+    position:absolute;
+    left:1036px;
+    top:232px;
+    width:60px;
+    height:20px;
+    z-index:39;
+}
+#Camp_Health_Form #label5
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#Camp_Health_Form #label6_container
+{
+    position:absolute;
+    left:61px;
+    top:288px;
+    width:266px;
+    height:20px;
+    z-index:41;
+}
+#Camp_Health_Form #label6
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#Camp_Health_Form #label7_container
+{
+    position:absolute;
+    left:815px;
+    top:288px;
+    width:60px;
+    height:20px;
+    z-index:43;
+}
+#Camp_Health_Form #label7
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#Camp_Health_Form #box_element1
+{
+    position:absolute;
+    left:25px;
+    top:178px;
+    width:1350px;
+    height:173px;
+    z-index:4;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#Camp_Health_Form #allergy_food_yes_no_0_container
+{
+    position:absolute;
+    left:923px;
+    top:396px;
+    width:50px;
+    height:18px;
+    z-index:140;
+}
+#Camp_Health_Form #allergy_food_yes_no_1_container
+{
+    position:absolute;
+    left:1002px;
+    top:396px;
+    width:50px;
+    height:18px;
+    z-index:141;
+}
+#Camp_Health_Form #label57_container
+{
+    position:absolute;
+    left:162px;
+    top:395px;
+    width:333px;
+    height:20px;
+    z-index:139;
+}
+#Camp_Health_Form #label57
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label58_container
+{
+    position:absolute;
+    left:53px;
+    top:391px;
+    width:71px;
+    height:28px;
+    z-index:29;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label58
+{
+    position:absolute;
+    left:1px;
+    top:3px;
+    text-align:center;
+    font-family:Arial;
+    font-size:11pt;
+    font-weight:bold;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #allergy_medicine_yes_no_0_container
+{
+    position:absolute;
+    left:923px;
+    top:435px;
+    width:50px;
+    height:18px;
+    z-index:143;
+}
+#Camp_Health_Form #allergy_medicine_yes_no_1_container
+{
+    position:absolute;
+    left:1002px;
+    top:435px;
+    width:50px;
+    height:18px;
+    z-index:144;
+}
+#Camp_Health_Form #label59_container
+{
+    position:absolute;
+    left:162px;
+    top:435px;
+    width:333px;
+    height:20px;
+    z-index:142;
+}
+#Camp_Health_Form #label59
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #allergy_environment_yes_no_0_container
+{
+    position:absolute;
+    left:923px;
+    top:476px;
+    width:50px;
+    height:18px;
+    z-index:146;
+}
+#Camp_Health_Form #allergy_environment_yes_no_1_container
+{
+    position:absolute;
+    left:1002px;
+    top:476px;
+    width:50px;
+    height:18px;
+    z-index:147;
+}
+#Camp_Health_Form #label60_container
+{
+    position:absolute;
+    left:162px;
+    top:476px;
+    width:387px;
+    height:20px;
+    z-index:145;
+}
+#Camp_Health_Form #label60
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #allergy_other_yes_no_0_container
+{
+    position:absolute;
+    left:1002px;
+    top:516px;
+    width:50px;
+    height:18px;
+    z-index:150;
+}
+#Camp_Health_Form #allergy_other_yes_no_1_container
+{
+    position:absolute;
+    left:923px;
+    top:516px;
+    width:50px;
+    height:18px;
+    z-index:149;
+}
+#Camp_Health_Form #label61_container
+{
+    position:absolute;
+    left:162px;
+    top:514px;
+    width:387px;
+    height:20px;
+    z-index:148;
+}
+#Camp_Health_Form #label61
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label62_container
+{
+    position:absolute;
+    left:162px;
+    top:577px;
+    width:300px;
+    height:50px;
+    z-index:151;
+}
+#Camp_Health_Form #label62
+{
+    position:absolute;
+    top:11px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #comments_allergies_container
+{
+    position:absolute;
+    left:575px;
+    top:552px;
+    z-index:152;
+}
+#Camp_Health_Form #comments_allergies
+{
+    float:left;
+    width:769px;
+    height:94px;
+    z-index:152;
+}
+#Camp_Health_Form #box_element2
+{
+    position:absolute;
+    left:24px;
+    top:375px;
+    width:1350px;
+    height:295px;
+    z-index:5;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#Camp_Health_Form #label10_container
+{
+    position:absolute;
+    left:50px;
+    top:713px;
+    width:160px;
+    height:26px;
+    z-index:6;
+}
+#Camp_Health_Form #label10
+{
+    position:absolute;
+    left:0px;
+    top:3px;
+    text-align:left;
+    font-family:Arial;
+    font-size:11pt;
+    font-weight:bold;
+    text-decoration:underline;
+    color:#000000;
+}
+#Camp_Health_Form #label12_container
+{
+    position:absolute;
+    left:224px;
+    top:719px;
+    width:1118px;
+    height:20px;
+    z-index:7;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label12
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:8pt;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label11_container
+{
+    position:absolute;
+    left:51px;
+    top:757px;
+    width:120px;
+    height:20px;
+    z-index:45;
+}
+#Camp_Health_Form #label11
+{
+    position:absolute;
+    top:3px;
+    right:0px;
+    text-align:right;
+}
+#Camp_Health_Form #label13_container
+{
+    position:absolute;
+    left:51px;
+    top:815px;
+    width:120px;
+    height:20px;
+    z-index:48;
+}
+#Camp_Health_Form #label13
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label14_container
+{
+    position:absolute;
+    left:358px;
+    top:815px;
+    width:120px;
+    height:20px;
+    z-index:49;
+}
+#Camp_Health_Form #label14
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label15_container
+{
+    position:absolute;
+    left:672px;
+    top:815px;
+    width:120px;
+    height:20px;
+    z-index:51;
+}
+#Camp_Health_Form #label15
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label16_container
+{
+    position:absolute;
+    left:1020px;
+    top:815px;
+    width:120px;
+    height:20px;
+    z-index:53;
+}
+#Camp_Health_Form #label16
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label20_container
+{
+    position:absolute;
+    left:1020px;
+    top:886px;
+    width:120px;
+    height:20px;
+    z-index:61;
+}
+#Camp_Health_Form #label20
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label17_container
+{
+    position:absolute;
+    left:50px;
+    top:887px;
+    width:120px;
+    height:20px;
+    z-index:55;
+}
+#Camp_Health_Form #label17
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label18_container
+{
+    position:absolute;
+    left:358px;
+    top:887px;
+    width:120px;
+    height:20px;
+    z-index:57;
+}
+#Camp_Health_Form #label18
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label19_container
+{
+    position:absolute;
+    left:672px;
+    top:887px;
+    width:120px;
+    height:20px;
+    z-index:59;
+}
+#Camp_Health_Form #label19
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label24_container
+{
+    position:absolute;
+    left:1060px;
+    top:932px;
+    width:60px;
+    height:20px;
+    z-index:69;
+}
+#Camp_Health_Form #label24
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label22_container
+{
+    position:absolute;
+    left:358px;
+    top:948px;
+    width:120px;
+    height:20px;
+    z-index:65;
+}
+#Camp_Health_Form #label22
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label21_container
+{
+    position:absolute;
+    left:50px;
+    top:949px;
+    width:120px;
+    height:20px;
+    z-index:63;
+}
+#Camp_Health_Form #label21
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #label23_container
+{
+    position:absolute;
+    left:672px;
+    top:949px;
+    width:120px;
+    height:20px;
+    z-index:67;
+}
+#Camp_Health_Form #label23
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #Immun_yes_no_0_container
+{
+    position:absolute;
+    left:757px;
+    top:1005px;
+    width:50px;
+    height:18px;
+    z-index:74;
+}
+#Camp_Health_Form #Immun_yes_no_1_container
+{
+    position:absolute;
+    left:826px;
+    top:1005px;
+    width:50px;
+    height:18px;
+    z-index:75;
+}
+#Camp_Health_Form #label25_container
+{
+    position:absolute;
+    left:49px;
+    top:1004px;
+    width:650px;
+    height:20px;
+    z-index:73;
+}
+#Camp_Health_Form #label25
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #box_element3
+{
+    position:absolute;
+    left:25px;
+    top:700px;
+    width:1350px;
+    height:361px;
+    z-index:8;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#Camp_Health_Form #label27_container
+{
+    position:absolute;
+    left:55px;
+    top:1117px;
+    width:87px;
+    height:20px;
+    z-index:76;
+}
+#Camp_Health_Form #label27
+{
+    position:absolute;
+    top:2px;
+    left:0px;
+    width:100%;
+    text-align:center;
+}
+#Camp_Health_Form #Meds_at_camp_true_false_0_container
+{
+    position:absolute;
+    left:176px;
+    top:1122px;
+    width:396px;
+    height:18px;
+    z-index:77;
+}
+#Camp_Health_Form #Meds_at_camp_true_false_1_container
+{
+    position:absolute;
+    left:176px;
+    top:1148px;
+    width:491px;
+    height:18px;
+    z-index:78;
+}
+#Camp_Health_Form #label26_container
+{
+    position:absolute;
+    left:50px;
+    top:1169px;
+    width:1300px;
+    height:39px;
+    z-index:10;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label26
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:10pt;
+    font-style:italic;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label28_container
+{
+    position:absolute;
+    left:50px;
+    top:1222px;
+    width:215px;
+    height:20px;
+    z-index:11;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+}
+#Camp_Health_Form #label28
+{
+    position:absolute;
+    left:47px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#Camp_Health_Form #label29_container
+{
+    position:absolute;
+    left:265px;
+    top:1222px;
+    width:215px;
+    height:20px;
+    z-index:12;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+}
+#Camp_Health_Form #label29
+{
+    position:absolute;
+    left:70px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#Camp_Health_Form #label33_container
+{
+    position:absolute;
+    left:480px;
+    top:1222px;
+    width:215px;
+    height:20px;
+    z-index:16;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+}
+#Camp_Health_Form #label33
+{
+    position:absolute;
+    left:57px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#Camp_Health_Form #label34_container
+{
+    position:absolute;
+    left:695px;
+    top:1222px;
+    width:215px;
+    height:20px;
+    z-index:17;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+}
+#Camp_Health_Form #label34
+{
+    position:absolute;
+    left:8px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#Camp_Health_Form #label36_container
+{
+    position:absolute;
+    left:1125px;
+    top:1222px;
+    width:225px;
+    height:20px;
+    z-index:19;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+}
+#Camp_Health_Form #label36
+{
+    position:absolute;
+    left:70px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#Camp_Health_Form #label35_container
+{
+    position:absolute;
+    left:910px;
+    top:1223px;
+    width:215px;
+    height:20px;
+    z-index:18;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+}
+#Camp_Health_Form #label35
+{
+    position:absolute;
+    left:43px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#Camp_Health_Form #med_date_1_container
+{
+    position:absolute;
+    left:265px;
+    top:1256px;
+    width:215px;
+    height:22px;
+    z-index:82;
+}
+#Camp_Health_Form #med_date_1
+{
+    float:left;
+    width:183px;
+    z-index:82;
+    margin:0px;
+}
+#Camp_Health_Form #med_date_1_image_container
+{
+    float:left;
+    width:20px;
+    z-index:82;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #med_date_1_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #med_name_1_container
+{
+    position:absolute;
+    left:50px;
+    top:1242px;
+    z-index:79;
+}
+#Camp_Health_Form #med_name_1
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:79;
+}
+#Camp_Health_Form #label30_container
+{
+    position:absolute;
+    left:265px;
+    top:1242px;
+    width:215px;
+    height:50px;
+    z-index:13;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffffe0;
+}
+#Camp_Health_Form #label30
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+    background-color:#ffffe0;
+}
+#Camp_Health_Form #med_reason_1_container
+{
+    position:absolute;
+    left:480px;
+    top:1242px;
+    z-index:85;
+}
+#Camp_Health_Form #med_reason_1
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:85;
+}
+#Camp_Health_Form #med_time_1_container
+{
+    position:absolute;
+    left:695px;
+    top:1242px;
+    z-index:88;
+}
+#Camp_Health_Form #med_time_1
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:88;
+}
+#Camp_Health_Form #med_amount_1_container
+{
+    position:absolute;
+    left:910px;
+    top:1242px;
+    z-index:91;
+}
+#Camp_Health_Form #med_amount_1
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:91;
+}
+#Camp_Health_Form #med_how_1_container
+{
+    position:absolute;
+    left:1125px;
+    top:1242px;
+    z-index:94;
+}
+#Camp_Health_Form #med_how_1
+{
+    float:left;
+    width:219px;
+    height:44px;
+    z-index:94;
+}
+#Camp_Health_Form #med_date_2_container
+{
+    position:absolute;
+    left:265px;
+    top:1306px;
+    width:215px;
+    height:22px;
+    z-index:83;
+}
+#Camp_Health_Form #med_date_2
+{
+    float:left;
+    width:183px;
+    z-index:83;
+    margin:0px;
+}
+#Camp_Health_Form #med_date_2_image_container
+{
+    float:left;
+    width:20px;
+    z-index:83;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #med_date_2_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #med_name_2_container
+{
+    position:absolute;
+    left:50px;
+    top:1292px;
+    z-index:80;
+}
+#Camp_Health_Form #med_name_2
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:80;
+}
+#Camp_Health_Form #label31_container
+{
+    position:absolute;
+    left:265px;
+    top:1292px;
+    width:215px;
+    height:50px;
+    z-index:14;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffffe0;
+}
+#Camp_Health_Form #label31
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+    background-color:#ffffe0;
+}
+#Camp_Health_Form #med_reason_2_container
+{
+    position:absolute;
+    left:480px;
+    top:1292px;
+    z-index:86;
+}
+#Camp_Health_Form #med_reason_2
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:86;
+}
+#Camp_Health_Form #med_time_2_container
+{
+    position:absolute;
+    left:695px;
+    top:1292px;
+    z-index:89;
+}
+#Camp_Health_Form #med_time_2
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:89;
+}
+#Camp_Health_Form #med_amount_2_container
+{
+    position:absolute;
+    left:910px;
+    top:1292px;
+    z-index:92;
+}
+#Camp_Health_Form #med_amount_2
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:92;
+}
+#Camp_Health_Form #med_how_2_container
+{
+    position:absolute;
+    left:1125px;
+    top:1292px;
+    z-index:95;
+}
+#Camp_Health_Form #med_how_2
+{
+    float:left;
+    width:219px;
+    height:44px;
+    z-index:95;
+}
+#Camp_Health_Form #med_date_3_container
+{
+    position:absolute;
+    left:265px;
+    top:1356px;
+    width:215px;
+    height:22px;
+    z-index:84;
+}
+#Camp_Health_Form #med_date_3
+{
+    float:left;
+    width:183px;
+    z-index:84;
+    margin:0px;
+}
+#Camp_Health_Form #med_date_3_image_container
+{
+    float:left;
+    width:20px;
+    z-index:84;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #med_date_3_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #med_name_3_container
+{
+    position:absolute;
+    left:50px;
+    top:1342px;
+    z-index:81;
+}
+#Camp_Health_Form #med_name_3
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:81;
+}
+#Camp_Health_Form #label32_container
+{
+    position:absolute;
+    left:265px;
+    top:1342px;
+    width:215px;
+    height:50px;
+    z-index:15;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffffe0;
+}
+#Camp_Health_Form #label32
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+    background-color:#ffffe0;
+}
+#Camp_Health_Form #med_reason_3_container
+{
+    position:absolute;
+    left:480px;
+    top:1342px;
+    z-index:87;
+}
+#Camp_Health_Form #med_reason_3
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:87;
+}
+#Camp_Health_Form #med_time_3_container
+{
+    position:absolute;
+    left:695px;
+    top:1342px;
+    z-index:90;
+}
+#Camp_Health_Form #med_time_3
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:90;
+}
+#Camp_Health_Form #med_amount_3_container
+{
+    position:absolute;
+    left:910px;
+    top:1342px;
+    z-index:93;
+}
+#Camp_Health_Form #med_amount_3
+{
+    float:left;
+    width:209px;
+    height:44px;
+    z-index:93;
+}
+#Camp_Health_Form #med_how_3_container
+{
+    position:absolute;
+    left:1125px;
+    top:1342px;
+    z-index:96;
+}
+#Camp_Health_Form #med_how_3
+{
+    float:left;
+    width:219px;
+    height:44px;
+    z-index:96;
+}
+#Camp_Health_Form #label37_container
+{
+    position:absolute;
+    left:50px;
+    top:1409px;
+    width:1300px;
+    height:24px;
+    z-index:20;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label37
+{
+    position:absolute;
+    left:31px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:11pt;
+    font-style:italic;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label63_container
+{
+    position:absolute;
+    left:50px;
+    top:1447px;
+    width:151px;
+    height:22px;
+    z-index:30;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+}
+#Camp_Health_Form #label63
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:9pt;
+    color:#000000;
+}
+#Camp_Health_Form #Ibuprofen_yes_no_0_container
+{
+    position:absolute;
+    left:1300px;
+    top:1485px;
+    width:50px;
+    height:18px;
+    z-index:176;
+}
+#Camp_Health_Form #Ibuprofen_yes_no_1_container
+{
+    position:absolute;
+    left:1234px;
+    top:1485px;
+    width:50px;
+    height:18px;
+    z-index:175;
+}
+#Camp_Health_Form #Tylenol_yes_no_0_container
+{
+    position:absolute;
+    left:458px;
+    top:1486px;
+    width:50px;
+    height:18px;
+    z-index:154;
+}
+#Camp_Health_Form #Tylenol_yes_no_1_container
+{
+    position:absolute;
+    left:524px;
+    top:1485px;
+    width:50px;
+    height:18px;
+    z-index:155;
+}
+#Camp_Health_Form #label71_container
+{
+    position:absolute;
+    left:826px;
+    top:1484px;
+    width:284px;
+    height:20px;
+    z-index:174;
+}
+#Camp_Health_Form #label71
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label64_container
+{
+    position:absolute;
+    left:50px;
+    top:1485px;
+    width:284px;
+    height:20px;
+    z-index:153;
+}
+#Camp_Health_Form #label64
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #Sudafed_PE_yes_no_0_container
+{
+    position:absolute;
+    left:524px;
+    top:1521px;
+    width:50px;
+    height:18px;
+    z-index:158;
+}
+#Camp_Health_Form #Sudafed_PE_yes_no_1_container
+{
+    position:absolute;
+    left:458px;
+    top:1521px;
+    width:50px;
+    height:18px;
+    z-index:157;
+}
+#Camp_Health_Form #Sudafed_yes_no_0_container
+{
+    position:absolute;
+    left:1300px;
+    top:1521px;
+    width:50px;
+    height:18px;
+    z-index:179;
+}
+#Camp_Health_Form #Sudafed_yes_no_1_container
+{
+    position:absolute;
+    left:1234px;
+    top:1521px;
+    width:50px;
+    height:18px;
+    z-index:178;
+}
+#Camp_Health_Form #label65_container
+{
+    position:absolute;
+    left:50px;
+    top:1520px;
+    width:284px;
+    height:20px;
+    z-index:156;
+}
+#Camp_Health_Form #label65
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label72_container
+{
+    position:absolute;
+    left:826px;
+    top:1520px;
+    width:284px;
+    height:20px;
+    z-index:177;
+}
+#Camp_Health_Form #label72
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #allergy_med_yes_no_0_container
+{
+    position:absolute;
+    left:524px;
+    top:1556px;
+    width:50px;
+    height:18px;
+    z-index:161;
+}
+#Camp_Health_Form #allergy_med_yes_no_1_container
+{
+    position:absolute;
+    left:458px;
+    top:1556px;
+    width:50px;
+    height:18px;
+    z-index:160;
+}
+#Camp_Health_Form #Robitussin_yes_no_0_container
+{
+    position:absolute;
+    left:1300px;
+    top:1556px;
+    width:50px;
+    height:18px;
+    z-index:182;
+}
+#Camp_Health_Form #Robitussin_yes_no_1_container
+{
+    position:absolute;
+    left:1234px;
+    top:1556px;
+    width:50px;
+    height:18px;
+    z-index:181;
+}
+#Camp_Health_Form #label66_container
+{
+    position:absolute;
+    left:50px;
+    top:1555px;
+    width:284px;
+    height:20px;
+    z-index:159;
+}
+#Camp_Health_Form #label66
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label73_container
+{
+    position:absolute;
+    left:826px;
+    top:1555px;
+    width:284px;
+    height:20px;
+    z-index:180;
+}
+#Camp_Health_Form #label73
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #Benadryl_yes_no_0_container
+{
+    position:absolute;
+    left:524px;
+    top:1590px;
+    width:50px;
+    height:18px;
+    z-index:164;
+}
+#Camp_Health_Form #Benadryl_yes_no_1_container
+{
+    position:absolute;
+    left:458px;
+    top:1590px;
+    width:50px;
+    height:18px;
+    z-index:163;
+}
+#Camp_Health_Form #Rob_DM_yes_no_0_container
+{
+    position:absolute;
+    left:1300px;
+    top:1590px;
+    width:50px;
+    height:18px;
+    z-index:185;
+}
+#Camp_Health_Form #Rob_DM_yes_no_1_container
+{
+    position:absolute;
+    left:1234px;
+    top:1590px;
+    width:50px;
+    height:18px;
+    z-index:184;
+}
+#Camp_Health_Form #label67_container
+{
+    position:absolute;
+    left:50px;
+    top:1589px;
+    width:328px;
+    height:20px;
+    z-index:162;
+}
+#Camp_Health_Form #label67
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label74_container
+{
+    position:absolute;
+    left:826px;
+    top:1589px;
+    width:284px;
+    height:20px;
+    z-index:183;
+}
+#Camp_Health_Form #label74
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #Throat_spray_yes_no_0_container
+{
+    position:absolute;
+    left:524px;
+    top:1625px;
+    width:50px;
+    height:18px;
+    z-index:167;
+}
+#Camp_Health_Form #Throat_spray_yes_no_1_container
+{
+    position:absolute;
+    left:458px;
+    top:1625px;
+    width:50px;
+    height:18px;
+    z-index:166;
+}
+#Camp_Health_Form #cough_drops_yes_no_0_container
+{
+    position:absolute;
+    left:1300px;
+    top:1625px;
+    width:50px;
+    height:18px;
+    z-index:188;
+}
+#Camp_Health_Form #cough_drops_yes_no_1_container
+{
+    position:absolute;
+    left:1234px;
+    top:1625px;
+    width:50px;
+    height:18px;
+    z-index:187;
+}
+#Camp_Health_Form #label68_container
+{
+    position:absolute;
+    left:50px;
+    top:1624px;
+    width:328px;
+    height:20px;
+    z-index:165;
+}
+#Camp_Health_Form #label68
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label75_container
+{
+    position:absolute;
+    left:826px;
+    top:1624px;
+    width:284px;
+    height:20px;
+    z-index:186;
+}
+#Camp_Health_Form #label75
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #Calamine_yes_no_0_container
+{
+    position:absolute;
+    left:524px;
+    top:1660px;
+    width:50px;
+    height:18px;
+    z-index:170;
+}
+#Camp_Health_Form #Calamine_yes_no_1_container
+{
+    position:absolute;
+    left:458px;
+    top:1660px;
+    width:50px;
+    height:18px;
+    z-index:169;
+}
+#Camp_Health_Form #aloe_yes_no_0_container
+{
+    position:absolute;
+    left:1300px;
+    top:1660px;
+    width:50px;
+    height:18px;
+    z-index:191;
+}
+#Camp_Health_Form #aloe_yes_no_1_container
+{
+    position:absolute;
+    left:1234px;
+    top:1659px;
+    width:50px;
+    height:18px;
+    z-index:190;
+}
+#Camp_Health_Form #label69_container
+{
+    position:absolute;
+    left:50px;
+    top:1659px;
+    width:328px;
+    height:20px;
+    z-index:168;
+}
+#Camp_Health_Form #label69
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label76_container
+{
+    position:absolute;
+    left:826px;
+    top:1659px;
+    width:284px;
+    height:20px;
+    z-index:189;
+}
+#Camp_Health_Form #label76
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #Laxatives_yes_no_0_container
+{
+    position:absolute;
+    left:525px;
+    top:1696px;
+    width:50px;
+    height:18px;
+    z-index:173;
+}
+#Camp_Health_Form #Laxatives_yes_no_1_container
+{
+    position:absolute;
+    left:458px;
+    top:1696px;
+    width:50px;
+    height:18px;
+    z-index:172;
+}
+#Camp_Health_Form #Pepto_yes_no_0_container
+{
+    position:absolute;
+    left:1300px;
+    top:1696px;
+    width:50px;
+    height:18px;
+    z-index:194;
+}
+#Camp_Health_Form #Pepto_yes_no_1_container
+{
+    position:absolute;
+    left:1234px;
+    top:1695px;
+    width:50px;
+    height:18px;
+    z-index:193;
+}
+#Camp_Health_Form #label70_container
+{
+    position:absolute;
+    left:51px;
+    top:1695px;
+    width:328px;
+    height:20px;
+    z-index:171;
+}
+#Camp_Health_Form #label70
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label77_container
+{
+    position:absolute;
+    left:826px;
+    top:1695px;
+    width:371px;
+    height:20px;
+    z-index:192;
+}
+#Camp_Health_Form #label77
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #box_element4
+{
+    position:absolute;
+    left:20px;
+    top:1086px;
+    width:1350px;
+    height:655px;
+    z-index:9;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#Camp_Health_Form #label39_container
+{
+    position:absolute;
+    left:51px;
+    top:1793px;
+    width:766px;
+    height:27px;
+    z-index:22;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label39
+{
+    position:absolute;
+    left:5px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:12pt;
+    font-style:italic;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label40_container
+{
+    position:absolute;
+    left:50px;
+    top:1827px;
+    width:133px;
+    height:24px;
+    z-index:23;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#000000;
+}
+#Camp_Health_Form #label40
+{
+    position:absolute;
+    left:4px;
+    top:2px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#ffffff;
+    background-color:#000000;
+}
+#Camp_Health_Form #label38_container
+{
+    position:absolute;
+    left:50px;
+    top:1867px;
+    width:250px;
+    height:20px;
+    z-index:97;
+}
+#Camp_Health_Form #label38
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #passed_out_yes_no_0_container
+{
+    position:absolute;
+    left:375px;
+    top:1867px;
+    width:78px;
+    height:20px;
+    z-index:98;
+}
+#Camp_Health_Form #passed_out_yes_no_1_container
+{
+    position:absolute;
+    left:450px;
+    top:1867px;
+    width:47px;
+    height:20px;
+    z-index:99;
+}
+#Camp_Health_Form #label45_container
+{
+    position:absolute;
+    left:700px;
+    top:1867px;
+    width:250px;
+    height:20px;
+    z-index:112;
+}
+#Camp_Health_Form #label45
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #seizures_yes_no_0_container
+{
+    position:absolute;
+    left:1025px;
+    top:1869px;
+    width:78px;
+    height:20px;
+    z-index:113;
+}
+#Camp_Health_Form #seizures_yes_no_1_container
+{
+    position:absolute;
+    left:1100px;
+    top:1867px;
+    width:47px;
+    height:20px;
+    z-index:114;
+}
+#Camp_Health_Form #label41_container
+{
+    position:absolute;
+    left:50px;
+    top:1907px;
+    width:250px;
+    height:20px;
+    z-index:100;
+}
+#Camp_Health_Form #label41
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #label46_container
+{
+    position:absolute;
+    left:700px;
+    top:1907px;
+    width:250px;
+    height:20px;
+    z-index:115;
+}
+#Camp_Health_Form #label46
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #skin_problems_yes_no_0_container
+{
+    position:absolute;
+    left:1025px;
+    top:1907px;
+    width:78px;
+    height:20px;
+    z-index:116;
+}
+#Camp_Health_Form #skin_problems_yes_no_1_container
+{
+    position:absolute;
+    left:1100px;
+    top:1907px;
+    width:47px;
+    height:20px;
+    z-index:117;
+}
+#Camp_Health_Form #recent_disease_yes_no_0_container
+{
+    position:absolute;
+    left:375px;
+    top:1908px;
+    width:78px;
+    height:20px;
+    z-index:101;
+}
+#Camp_Health_Form #recent_disease_yes_no_1_container
+{
+    position:absolute;
+    left:450px;
+    top:1908px;
+    width:41px;
+    height:20px;
+    z-index:102;
+}
+#Camp_Health_Form #label42_container
+{
+    position:absolute;
+    left:50px;
+    top:1947px;
+    width:250px;
+    height:20px;
+    z-index:103;
+}
+#Camp_Health_Form #label42
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #recent_injury_yes_no_0_container
+{
+    position:absolute;
+    left:375px;
+    top:1947px;
+    width:78px;
+    height:20px;
+    z-index:104;
+}
+#Camp_Health_Form #recent_injury_yes_no_1_container
+{
+    position:absolute;
+    left:450px;
+    top:1947px;
+    width:40px;
+    height:20px;
+    z-index:105;
+}
+#Camp_Health_Form #label47_container
+{
+    position:absolute;
+    left:700px;
+    top:1947px;
+    width:291px;
+    height:20px;
+    z-index:118;
+}
+#Camp_Health_Form #label47
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #sleep_problems_yes_no_0_container
+{
+    position:absolute;
+    left:1100px;
+    top:1947px;
+    width:47px;
+    height:20px;
+    z-index:120;
+}
+#Camp_Health_Form #sleep_problems_yes_no_1_container
+{
+    position:absolute;
+    left:1025px;
+    top:1947px;
+    width:78px;
+    height:20px;
+    z-index:119;
+}
+#Camp_Health_Form #label43_container
+{
+    position:absolute;
+    left:50px;
+    top:1987px;
+    width:250px;
+    height:20px;
+    z-index:106;
+}
+#Camp_Health_Form #label43
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #breathing_problem_yes_no_0_container
+{
+    position:absolute;
+    left:375px;
+    top:1987px;
+    width:78px;
+    height:20px;
+    z-index:107;
+}
+#Camp_Health_Form #breathing_problem_yes_no_1_container
+{
+    position:absolute;
+    left:450px;
+    top:1987px;
+    width:40px;
+    height:20px;
+    z-index:108;
+}
+#Camp_Health_Form #label48_container
+{
+    position:absolute;
+    left:700px;
+    top:1987px;
+    width:291px;
+    height:20px;
+    z-index:121;
+}
+#Camp_Health_Form #label48
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #diarrhea_constipation_yes_no_0_container
+{
+    position:absolute;
+    left:1100px;
+    top:1987px;
+    width:47px;
+    height:20px;
+    z-index:123;
+}
+#Camp_Health_Form #diarrhea_constipation_yes_no_1_container
+{
+    position:absolute;
+    left:1025px;
+    top:1987px;
+    width:78px;
+    height:20px;
+    z-index:122;
+}
+#Camp_Health_Form #label44_container
+{
+    position:absolute;
+    left:50px;
+    top:2027px;
+    width:250px;
+    height:20px;
+    z-index:109;
+}
+#Camp_Health_Form #label44
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #diabetes_yes_no_0_container
+{
+    position:absolute;
+    left:375px;
+    top:2027px;
+    width:78px;
+    height:20px;
+    z-index:110;
+}
+#Camp_Health_Form #diabetes_yes_no_1_container
+{
+    position:absolute;
+    left:450px;
+    top:2027px;
+    width:40px;
+    height:20px;
+    z-index:111;
+}
+#Camp_Health_Form #label49_container
+{
+    position:absolute;
+    left:700px;
+    top:2027px;
+    width:291px;
+    height:20px;
+    z-index:124;
+}
+#Camp_Health_Form #label49
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #glasses_yes_no_0_container
+{
+    position:absolute;
+    left:1100px;
+    top:2027px;
+    width:47px;
+    height:20px;
+    z-index:126;
+}
+#Camp_Health_Form #glasses_yes_no_1_container
+{
+    position:absolute;
+    left:1025px;
+    top:2027px;
+    width:78px;
+    height:20px;
+    z-index:125;
+}
+#Camp_Health_Form #label53_container
+{
+    position:absolute;
+    left:50px;
+    top:2069px;
+    width:361px;
+    height:27px;
+    z-index:27;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label53
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:12pt;
+    font-style:italic;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #health_history_Yes_explain_container
+{
+    position:absolute;
+    left:50px;
+    top:2111px;
+    z-index:130;
+}
+#Camp_Health_Form #health_history_Yes_explain
+{
+    float:left;
+    width:1294px;
+    height:82px;
+    z-index:130;
+}
+#Camp_Health_Form #box_element5
+{
+    position:absolute;
+    left:24px;
+    top:1769px;
+    width:1350px;
+    height:455px;
+    z-index:21;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#Camp_Health_Form #label50_container
+{
+    position:absolute;
+    left:50px;
+    top:2288px;
+    width:566px;
+    height:27px;
+    z-index:25;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label50
+{
+    position:absolute;
+    left:2px;
+    top:0px;
+    text-align:center;
+    font-family:Arial;
+    font-size:12pt;
+    font-style:italic;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label51_container
+{
+    position:absolute;
+    left:50px;
+    top:2322px;
+    width:133px;
+    height:24px;
+    z-index:26;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#000000;
+}
+#Camp_Health_Form #label51
+{
+    position:absolute;
+    left:19px;
+    top:2px;
+    text-align:center;
+    font-family:Arial;
+    font-size:9pt;
+    color:#ffffff;
+    background-color:#000000;
+}
+#Camp_Health_Form #label52_container
+{
+    position:absolute;
+    left:50px;
+    top:2367px;
+    width:560px;
+    height:20px;
+    z-index:127;
+}
+#Camp_Health_Form #label52
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #ADD_ADHD_yes_no_0_container
+{
+    position:absolute;
+    left:775px;
+    top:2367px;
+    width:47px;
+    height:20px;
+    z-index:129;
+}
+#Camp_Health_Form #ADD_ADHD_yes_no_1_container
+{
+    position:absolute;
+    left:700px;
+    top:2367px;
+    width:78px;
+    height:20px;
+    z-index:128;
+}
+#Camp_Health_Form #label54_container
+{
+    position:absolute;
+    left:50px;
+    top:2407px;
+    width:560px;
+    height:20px;
+    z-index:131;
+}
+#Camp_Health_Form #label54
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #emotional_yes_no_0_container
+{
+    position:absolute;
+    left:775px;
+    top:2407px;
+    width:47px;
+    height:20px;
+    z-index:133;
+}
+#Camp_Health_Form #emotional_yes_no_1_container
+{
+    position:absolute;
+    left:700px;
+    top:2407px;
+    width:78px;
+    height:20px;
+    z-index:132;
+}
+#Camp_Health_Form #label55_container
+{
+    position:absolute;
+    left:50px;
+    top:2447px;
+    width:560px;
+    height:20px;
+    z-index:134;
+}
+#Camp_Health_Form #label55
+{
+    position:absolute;
+    top:3px;
+    left:0px;
+    text-align:left;
+}
+#Camp_Health_Form #mental_illness_yes_no_0_container
+{
+    position:absolute;
+    left:775px;
+    top:2447px;
+    width:47px;
+    height:20px;
+    z-index:136;
+}
+#Camp_Health_Form #mental_illness_yes_no_1_container
+{
+    position:absolute;
+    left:700px;
+    top:2447px;
+    width:78px;
+    height:20px;
+    z-index:135;
+}
+#Camp_Health_Form #label56_container
+{
+    position:absolute;
+    left:50px;
+    top:2491px;
+    width:361px;
+    height:27px;
+    z-index:28;
+    border-width:1px;
+    border-style:solid;
+    border-color:#800000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #label56
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    text-align:left;
+    font-family:Arial;
+    font-size:12pt;
+    font-style:italic;
+    color:#000000;
+    background-color:#ffff00;
+}
+#Camp_Health_Form #Mental_comments_container
+{
+    position:absolute;
+    left:50px;
+    top:2537px;
+    z-index:137;
+}
+#Camp_Health_Form #Mental_comments
+{
+    float:left;
+    width:1294px;
+    height:82px;
+    z-index:137;
+}
+#Camp_Health_Form #Submit_container
+{
+    position:absolute;
+    left:1270px;
+    top:2652px;
+    width:80px;
+    height:25px;
+    z-index:138;
+}
+#Camp_Health_Form #Submit
+{
+    float:left;
+    width:80px;
+    height:25px;
+    z-index:138;
+}
+#Camp_Health_Form #box_element6
+{
+    position:absolute;
+    left:25px;
+    top:2259px;
+    width:1350px;
+    height:443px;
+    z-index:24;
+    border:1px solid #000000;
+    background-color:transparent;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+#Camp_Health_Form #FirstName_e_contact_container
+{
+    position:absolute;
+    left:124px;
+    top:231px;
+    z-index:34;
+}
+#Camp_Health_Form #FirstName_e_contact
+{
+    float:left;
+    width:194px;
+    z-index:34;
+}
+#Camp_Health_Form #Relationship_container
+{
+    position:absolute;
+    left:815px;
+    top:231px;
+    z-index:38;
+}
+#Camp_Health_Form #Relationship
+{
+    float:left;
+    width:194px;
+    z-index:38;
+}
+#Camp_Health_Form #Phone_e_contact_container
+{
+    position:absolute;
+    left:1117px;
+    top:231px;
+    z-index:40;
+}
+#Camp_Health_Form #Phone_e_contact
+{
+    float:left;
+    width:194px;
+    z-index:40;
+}
+#Camp_Health_Form #LastName_e_contact_container
+{
+    position:absolute;
+    left:427px;
+    top:232px;
+    z-index:36;
+}
+#Camp_Health_Form #LastName_e_contact
+{
+    float:left;
+    width:194px;
+    z-index:36;
+}
+#Camp_Health_Form #Doctor_container
+{
+    position:absolute;
+    left:349px;
+    top:287px;
+    z-index:42;
+}
+#Camp_Health_Form #Doctor
+{
+    float:left;
+    width:394px;
+    z-index:42;
+}
+#Camp_Health_Form #Phone_Doctor_container
+{
+    position:absolute;
+    left:913px;
+    top:287px;
+    z-index:44;
+}
+#Camp_Health_Form #Phone_Doctor
+{
+    float:left;
+    width:194px;
+    z-index:44;
+}
+#Camp_Health_Form #Immun_form_container
+{
+    position:absolute;
+    left:180px;
+    top:755px;
+    z-index:46;
+}
+#Camp_Health_Form #Immun_form
+{
+    float:left;
+    width:220px;
+    height:24px;
+    z-index:46;
+}
+#Camp_Health_Form #IMUN_1_container
+{
+    position:absolute;
+    left:180px;
+    top:814px;
+    width:140px;
+    height:22px;
+    z-index:47;
+}
+#Camp_Health_Form #IMUN_1
+{
+    float:left;
+    width:108px;
+    z-index:47;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_1_image_container
+{
+    float:left;
+    width:20px;
+    z-index:47;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_1_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_2_container
+{
+    position:absolute;
+    left:486px;
+    top:814px;
+    width:140px;
+    height:22px;
+    z-index:50;
+}
+#Camp_Health_Form #IMUN_2
+{
+    float:left;
+    width:108px;
+    z-index:50;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_2_image_container
+{
+    float:left;
+    width:20px;
+    z-index:50;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_2_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_3_container
+{
+    position:absolute;
+    left:823px;
+    top:814px;
+    width:140px;
+    height:22px;
+    z-index:52;
+}
+#Camp_Health_Form #IMUN_3
+{
+    float:left;
+    width:108px;
+    z-index:52;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_3_image_container
+{
+    float:left;
+    width:20px;
+    z-index:52;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_3_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_4_container
+{
+    position:absolute;
+    left:1166px;
+    top:814px;
+    width:140px;
+    height:22px;
+    z-index:54;
+}
+#Camp_Health_Form #IMUN_4
+{
+    float:left;
+    width:108px;
+    z-index:54;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_4_image_container
+{
+    float:left;
+    width:20px;
+    z-index:54;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_4_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_5_container
+{
+    position:absolute;
+    left:180px;
+    top:886px;
+    width:140px;
+    height:22px;
+    z-index:56;
+}
+#Camp_Health_Form #IMUN_5
+{
+    float:left;
+    width:108px;
+    z-index:56;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_5_image_container
+{
+    float:left;
+    width:20px;
+    z-index:56;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_5_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_6_container
+{
+    position:absolute;
+    left:485px;
+    top:886px;
+    width:140px;
+    height:22px;
+    z-index:58;
+}
+#Camp_Health_Form #IMUN_6
+{
+    float:left;
+    width:108px;
+    z-index:58;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_6_image_container
+{
+    float:left;
+    width:20px;
+    z-index:58;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_6_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_7_container
+{
+    position:absolute;
+    left:822px;
+    top:885px;
+    width:140px;
+    height:22px;
+    z-index:60;
+}
+#Camp_Health_Form #IMUN_7
+{
+    float:left;
+    width:108px;
+    z-index:60;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_7_image_container
+{
+    float:left;
+    width:20px;
+    z-index:60;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_7_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_8_container
+{
+    position:absolute;
+    left:1166px;
+    top:885px;
+    width:140px;
+    height:22px;
+    z-index:62;
+}
+#Camp_Health_Form #IMUN_8
+{
+    float:left;
+    width:108px;
+    z-index:62;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_8_image_container
+{
+    float:left;
+    width:20px;
+    z-index:62;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_8_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_9_container
+{
+    position:absolute;
+    left:180px;
+    top:948px;
+    width:140px;
+    height:22px;
+    z-index:64;
+}
+#Camp_Health_Form #IMUN_9
+{
+    float:left;
+    width:108px;
+    z-index:64;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_9_image_container
+{
+    float:left;
+    width:20px;
+    z-index:64;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_9_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_10_container
+{
+    position:absolute;
+    left:485px;
+    top:948px;
+    width:140px;
+    height:22px;
+    z-index:66;
+}
+#Camp_Health_Form #IMUN_10
+{
+    float:left;
+    width:108px;
+    z-index:66;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_10_image_container
+{
+    float:left;
+    width:20px;
+    z-index:66;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_10_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_11_container
+{
+    position:absolute;
+    left:822px;
+    top:948px;
+    width:140px;
+    height:22px;
+    z-index:68;
+}
+#Camp_Health_Form #IMUN_11
+{
+    float:left;
+    width:108px;
+    z-index:68;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_11_image_container
+{
+    float:left;
+    width:20px;
+    z-index:68;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_11_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #IMUN_12_container
+{
+    position:absolute;
+    left:1166px;
+    top:948px;
+    width:140px;
+    height:22px;
+    z-index:70;
+}
+#Camp_Health_Form #IMUN_12
+{
+    float:left;
+    width:108px;
+    z-index:70;
+    margin:0px;
+}
+#Camp_Health_Form #IMUN_12_image_container
+{
+    float:left;
+    width:20px;
+    z-index:70;
+    height:100%;
+    position:relative;
+}
+#Camp_Health_Form #IMUN_12_image
+{
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+}
+#Camp_Health_Form #Positive_container
+{
+    position:absolute;
+    left:1060px;
+    top:958px;
+    width:80px;
+    height:14px;
+    z-index:71;
+}
+#Camp_Health_Form #Negative_container
+{
+    position:absolute;
+    left:1060px;
+    top:978px;
+    width:80px;
+    height:14px;
+    z-index:72;
+}
